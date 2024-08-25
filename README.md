@@ -35,4 +35,4 @@ You can contribute your themes to the repository by creating a _Pull Request_.
  ### Electric Blue
 * Download [Electric Blue](./themes/SxC_electricBlue.theme)
  
- <img src="./themes/SxC_ElectricBlue_screenshot01.jpg" width="240"> &nbsp;&nbsp; <img src="./themes/SxC_ElectricBlue_screenshot02.jpg" width="240"> &nbsp;&nbsp; <img src="./themes/SxC_ElectricBlue_screenshot03.jpg" width="240"> &nbsp;&nbsp;<img src="./themes/SxC_ElectricBlue_screenshot04.jpg" width="240"> &nbsp;&nbsp;
+ <img src="./screenshots/SxC_ElectricBlue_screenshot04.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue_screenshot01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue_screenshot02.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_ElectricBlue_screenshot03.jpg" width="240"> &nbsp;&nbsp;
