@@ -27,10 +27,12 @@ You can contribute your themes to the repository by creating a _Pull Request_.
     <img src="./themes/example-chats.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-conversation.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-settings.png" width="240"> &nbsp;&nbsp;
 -->
 
+<!--
 ### Dark Blue theme (included)
 * Download [Dark Blue theme](./themes/example.theme)
 
 <img src="./themes/example-chats.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-conversation.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-settings.png" width="240">
+-->
 
  ### Electric Blue
 * Download [Electric Blue](./themes/SxC_electricBlue.theme)
