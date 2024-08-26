@@ -1,6 +1,6 @@
 <img src="./resources/logo-light.png">
 
-# Custom Themes
+# Theme Archive
 
 _The SimpleX Themes archive is an independent, community project not affiliated with [SimpleX](https://simplex.chat)_
 
