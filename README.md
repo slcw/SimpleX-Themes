@@ -15,7 +15,7 @@ You can contribute your themes to the repository by joining the [SimpleX Themes 
 
 Your theme file will be transferred to the Themes Archive and made available for download. 
 
-## Color themes
+## Download Themes
 
 <!-- Copy the following block for your theme, customize it, append it to the bottom of the file, and remove the comment tags to make it live. Do NOT edit this block. MAKE A COPY. 
     ### Your theme name
