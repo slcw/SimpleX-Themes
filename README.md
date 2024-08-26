@@ -46,3 +46,7 @@ You can contribute your themes to the repository by creating a _Pull Request_.
 
  <img src="./screenshots/SxC_darkGreen_screenshot01.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot02.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot03.png" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_darkGreen_screenshot04.png" width="240"> &nbsp;&nbsp;
  
+ ### Nightshade
+* Download [Nightshade](./themes/SxC_Nightshade.theme)
+
+ <img src="./screenshots/SxC_Nightshade01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_Nightshade04.jpg" width="240"> &nbsp;&nbsp;
