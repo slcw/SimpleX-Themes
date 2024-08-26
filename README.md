@@ -17,6 +17,8 @@ You can contribute your themes to the repository by creating a _Pull Request_.
   * an open conversation
   * The _Your Privacy_ panel
 
+⚠️ *I recommend stripping the EXIF data out of your screenshot files before uploading for added protection.*
+
 5. Create a _Pull Request_ that includes these files and amends this README.md file, following the example below.
 
 6. Restore your database from the backup.
