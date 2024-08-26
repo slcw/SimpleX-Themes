@@ -50,3 +50,13 @@ You can contribute your themes to the repository by creating a _Pull Request_.
 * Download [Nightshade](./themes/SxC_Nightshade.theme)
 
  <img src="./screenshots/SxC_Nightshade01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_Nightshade04.jpg" width="240"> &nbsp;&nbsp;
+
+### Camo Urban
+* Download [Camo Urban](./themes/SxC_camoUrban.theme)
+
+ <img src="./screenshots/SxC_camoUrban01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoUrban02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoUrban03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_camoUrban04.jpg" width="240"> &nbsp;&nbsp;
+
+### Camo Green
+* Download [Camo Green](./themes/SxC_camoGreen.theme)
+
+ <img src="./screenshots/SxC_camoGreen01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoGreen02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoGreen03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_camoGreen04.jpg" width="240"> &nbsp;&nbsp;
