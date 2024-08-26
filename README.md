@@ -1,6 +1,6 @@
 <img src="./resources/logo-light.png">
 
-# Custom SimpleX Chat Themes
+# Custom Themes
 
 You can contribute your themes to the repository by creating a _Pull Request_. 
 
