@@ -41,7 +41,7 @@ You can contribute your themes to the repository by creating a _Pull Request_.
  
  <img src="./screenshots/SxC_ElectricBlue_screenshot04.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue_screenshot01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue_screenshot02.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_ElectricBlue_screenshot03.jpg" width="240"> &nbsp;&nbsp;
 
-### Dark Green theme
+### Dark Green
 * Download [Dark Green](./themes/SxC_darkGreen.theme)
 
  <img src="./screenshots/SxC_darkGreen_screenshot01.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot02.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot03.png" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_darkGreen_screenshot04.png" width="240"> &nbsp;&nbsp;
