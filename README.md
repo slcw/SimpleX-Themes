@@ -59,3 +59,8 @@ Your theme file will be transferred to the Themes Archive and made available for
 * Download [Lazy Sunday](./themes/SxC_lazySunday.theme)
 
  <img src="./screenshots/SxC_lazySunday01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_lazySunday02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_lazySunday03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_lazySunday04.jpg" width="240"> &nbsp;&nbsp;
+
+### Binary
+* Download [Binary](./themes/SxC_binary.theme)
+
+ <img src="./screenshots/SxC_binary01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_binary02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_binary03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_binary04.jpg" width="240"> &nbsp;&nbsp;
