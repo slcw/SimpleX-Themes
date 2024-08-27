@@ -2,7 +2,7 @@
 
 # CPN Hacking v2
 
-* Download [CPN Hacking v2](../themes/SxC_themeName.theme)
+* Download [CPN Hacking v2](../themes/SxC_CPN_HackingV2.theme)
 
 <img src="../screenshots/SxC_CPN_HackingV201.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_CPN_HackingV202.jpg" width="120">
 
