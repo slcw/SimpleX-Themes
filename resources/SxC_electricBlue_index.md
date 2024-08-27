@@ -8,4 +8,4 @@
 
 <img src="../screenshots/SxC_ElectricBlue03.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_ElectricBlue04.jpg" width="120">
 
-* [Return Home](../README.md) 
+* [Return Home](/) 
