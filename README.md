@@ -17,50 +17,11 @@ Your theme file will be transferred to the Themes Archive and made available for
 
 ## Download Themes
 
-<!-- Copy the following block for your theme, customize it, append it to the bottom of the file, and remove the comment tags to make it live. Do NOT edit this block. MAKE A COPY. 
-    ### Your theme name
-    Download [Your theme](./themes/example.theme)
-    <img src="./themes/example-chats.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-conversation.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-settings.png" width="240"> &nbsp;&nbsp;
--->
-
-<!--
-### Dark Blue theme (included)
-* Download [Dark Blue theme](./themes/example.theme)
-
-<img src="./themes/example-chats.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-conversation.png" width="240"> &nbsp;&nbsp; <img src="./themes/example-settings.png" width="240">
--->
-
- ### Electric Blue
-* Download [Electric Blue](./themes/SxC_electricBlue.theme)
- 
- <img src="./screenshots/SxC_ElectricBlue01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_ElectricBlue03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_ElectricBlue04.jpg" width="240"> &nbsp;&nbsp;
-
-### Dark Green
-* Download [Dark Green](./themes/SxC_darkGreen.theme)
-
- <img src="./screenshots/SxC_darkGreen_screenshot01.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot02.png" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_darkGreen_screenshot03.png" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_darkGreen_screenshot04.png" width="240"> &nbsp;&nbsp;
- 
- ### Nightshade
-* Download [Nightshade](./themes/SxC_Nightshade.theme)
-
- <img src="./screenshots/SxC_Nightshade01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_Nightshade03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_Nightshade04.jpg" width="240"> &nbsp;&nbsp;
-
-### Camo Urban
-* Download [Camo Urban](./themes/SxC_camoUrban.theme)
-
- <img src="./screenshots/SxC_camoUrban01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoUrban02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoUrban03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_camoUrban04.jpg" width="240"> &nbsp;&nbsp;
-
-### Camo Green
-* Download [Camo Green](./themes/SxC_camoGreen.theme)
-
- <img src="./screenshots/SxC_camoGreen01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoGreen02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_camoGreen03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_camoGreen04.jpg" width="240"> &nbsp;&nbsp;
-
-### Lazy Sunday
-* Download [Lazy Sunday](./themes/SxC_lazySunday.theme)
-
- <img src="./screenshots/SxC_lazySunday01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_lazySunday02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_lazySunday03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_lazySunday04.jpg" width="240"> &nbsp;&nbsp;
-
-### Binary
-* Download [Binary](./themes/SxC_binary.theme)
-
- <img src="./screenshots/SxC_binary01.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_binary02.jpg" width="240"> &nbsp;&nbsp; <img src="./screenshots/SxC_binary03.jpg" width="240"> &nbsp;&nbsp;<img src="./screenshots/SxC_binary04.jpg" width="240"> &nbsp;&nbsp;
+Select a theme to view screenshots and download.
+* [Binary](./resources/SxC_binary_index.md)
+* [Camo Green](./resources/SxC_camoGreen_index.md)
+* [Camo Urban](./resources/SxC_camoUrban_index.md)
+* [Dark Green](./resources/SxC_darkGreen_index.md)
+* [Electric Blue](./resources/SxC_electricBlue_index.md)
+* [Lazy Sunday](./resources/SxC_lazySunday_index.md)
+* [Nightshade](./resources/SxC_Nightshade_index.md)
