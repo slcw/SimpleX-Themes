@@ -1,4 +1,4 @@
-<img src="../resources/logo-light.png">
+<img src="../resources/SxC_themeBanner.jpg">
 
 # Binary
 
