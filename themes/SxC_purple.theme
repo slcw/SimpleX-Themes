@@ -1,0 +1,19 @@
+base: "SIMPLEX"
+colors:
+  accent: "#ffc270f9"
+  accentVariant: "#ff7b12a5"
+  secondary: "#ff8f00b2"
+  secondaryVariant: "#ff452c4d"
+  background: "#ff201128"
+  menus: "#ff271237"
+  title: "#ff8026e5"
+  accentVariant2: "#ff351741"
+  sentMessage: "#ff3c255d"
+  sentReply: "#ff623485"
+  receivedMessage: "#ff3d0059"
+  receivedReply: "#ff370059"
+wallpaper:
+  preset: "travel"
+  scale: 2.0
+  background: "#ff1d1128"
+  tint: "#ff35204e"
