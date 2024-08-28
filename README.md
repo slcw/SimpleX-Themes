@@ -30,4 +30,4 @@ Select a theme to view screenshots and download
 
 | [Purple](./resources/SxC_purple_index.md) | [Red](./resources/SxC_red_index.md) | [Session (dark)](./resources/SxC_SessionDark_index.md) |
 
-| [The Shining](./resources/SxC_The_Shining_index.md) | [Yellow](./resources/SxC_yellow_index.md) |
+| [The Shining](./resources/SxC_The_ShiningV2_index.md) | [Yellow](./resources/SxC_yellow_index.md) |
