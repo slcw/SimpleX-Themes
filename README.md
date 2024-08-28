@@ -15,12 +15,5 @@ Your theme file will be transferred to the Theme Archive and made available for 
 
 ## Download Themes
 Select a theme to view screenshots and download
-	<table>
-		<tbody>
-			<tr>
-				<td><A href="./resources/SxC_AMOLEDblackV2_index.md>AMOLED Black v2<br><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><A href="./resources/SxC_binary_index.md>Binary<br><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
-				<td><A href="./resources/SxC_camoCobalt_index.md>Camo Cobalt<br><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-	</table>
+
+|[AMOLED Black v2](./resources/SxC_AMOLEDblackV2_index.md) |[Binary](./resources/SxC_binary_index.md) |[Camo Cobalt](./resources/SxC_camoCobalt_index.md) |
