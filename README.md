@@ -14,7 +14,7 @@ You can submit your themes to the repository by joining the [SimpleX Themes user
 Your theme file will be transferred to the Theme Archive and made available for download. 
 
 ## Download Themes
-
+<head>
 Select a theme to view screenshots and download
 <style>
 		table {
