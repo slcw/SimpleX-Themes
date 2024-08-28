@@ -14,26 +14,7 @@ You can submit your themes to the repository by joining the [SimpleX Themes user
 Your theme file will be transferred to the Theme Archive and made available for download. 
 
 ## Download Themes
-<head>
 Select a theme to view screenshots and download
-<style>
-		table {
-			border:none;
-			border-collapse:collapse;
-			padding:5px;
-		}
-		table th {
-			border:none;
-			padding:5px;
-		}
-		table td {
-			border:none;
-			text-align:center;
-			padding:5px;
-		}
-	</style>
-</head>
-<body>
 	<table>
 		<tbody>
 			<tr>
