@@ -22,12 +22,12 @@ Select a theme to view screenshots and download
 
 | [Cyan](./resources/SxC_cyan_index.md) | [Dark](./resources/SxC_dark_index.md) | [Dark Green](./resources/SxC_darkGreen_index.md) |
 
-| [Electric Blue](./resources/SxC_electricBlue_index.md) | [Green](./resources/SxC_green_index.md) | [Lazy Sunday](./resources/SxC_lazySunday_index.md) |
+| [Electric Blue](./resources/SxC_electricBlue_index.md) | [Green](./resources/SxC_green_index.md) | [IT Slate](./resources/SxC_IT_Slate_index.md) |
 
-| [Light](./resources/SxC_light_index.md) | [Leaves](./resources/SxC_leaves_index.md) | [Lobster](./resources/SxC_Lobster_index.md) |
+| [Lazy Sunday](./resources/SxC_lazySunday_index.md) | [Light](./resources/SxC_light_index.md) | [Leaves](./resources/SxC_leaves_index.md) |
 
-| [Mocca](./resources/SxC_mocca_index.md) | [Mona Lisa](./resources/SxC_monaLisa_index.md) | [Nightshade](./resources/SxC_Nightshade_index.md) |
+| [Lobster](./resources/SxC_Lobster_index.md) | [Mocca](./resources/SxC_mocca_index.md) | [Mona Lisa](./resources/SxC_monaLisa_index.md) |
 
-| [Purple](./resources/SxC_purple_index.md) | [Red](./resources/SxC_red_index.md) | [Session (dark)](./resources/SxC_SessionDark_index.md) |
+| [Nightshade](./resources/SxC_Nightshade_index.md) | [Purple](./resources/SxC_purple_index.md) | [Red](./resources/SxC_red_index.md) |
 
-| [The Shining](./resources/SxC_The_ShiningV2_index.md) | [Yellow](./resources/SxC_yellow_index.md) |
+| [Session (dark)](./resources/SxC_SessionDark_index.md) | [The Shining](./resources/SxC_The_ShiningV2_index.md) | [Yellow](./resources/SxC_yellow_index.md) |
