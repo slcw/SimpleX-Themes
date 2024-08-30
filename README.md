@@ -17,7 +17,7 @@ Your theme file will be transferred to the Theme Archive and made available for 
 Select a theme to view screenshots and download
 
 <body>
-	<table border="1">
+	<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank">AMOLED Black</a></td>
