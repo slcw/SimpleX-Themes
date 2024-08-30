@@ -33,10 +33,10 @@ Select a theme to view screenshots and download
 			<tr>
 				<td><a href="./resources/SxC_cyan_index.md">Cyan</a> <br><a href="./resources/SxC_cyan_index.md"><img src="./screenshots/SxC_cyan01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_dark_index.md">Dark</a> <br><a href="./resources/SxC_dark_index.md"><img src="./screenshots/SxC_dark01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_darkGreen_index.md">Dark Green</a> <br><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_darkGreen_index.md">Dark Green</a> <br><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.png" width="80"></a></td>
 			</tr>
 			<tr>
-				<td><a href="./resources/SxC_electricBlue_index.md">Electric Blue</a> <br><a href="./resources/SxC_electricBlue_index.md"><img src="./screenshots/SxC_electricBlue01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_electricBlue_index.md">Electric Blue</a> <br><a href="./resources/SxC_electricBlue_index.md"><img src="./screenshots/SxC_ElectricBlue01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_green_index.md">Green</a> <br><a href="./resources/SxC_green_index.md"><img src="./screenshots/SxC_green01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_IT_Slate_index.md">IT Slate</a> <br><a href="./resources/SxC_IT_Slate_index.md"><img src="./screenshots/SxC_IT_Slate01.jpg" width="80"></a></td>
 			</tr>
