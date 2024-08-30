@@ -22,8 +22,8 @@ Select a theme to view screenshots and download
 		<tbody>
 			<tr>
 				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_binary_index.md">Binary</a> <br><a href="./resources/SxC_binary_index.md"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_camoCobalt_index.md">Camo Cobalt</a> <br><a href="./resources/SxC_camoCobalt_index.md"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 			<tr>
 				<td>&nbsp;</td>
