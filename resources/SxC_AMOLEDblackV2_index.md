@@ -8,4 +8,4 @@
 
 <img src="../screenshots/SxC_AMOLEDblackV203.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_AMOLEDblackV204.jpg" width="120">
 
-* [Return Home](/)
+* [Return Home](../)
