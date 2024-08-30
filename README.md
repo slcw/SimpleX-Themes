@@ -16,72 +16,6 @@ Your theme file will be transferred to the Theme Archive and made available for 
 ## Download Themes
 Select a theme to view screenshots and download
 
-	<style>
-		table {
-			border:0px none;
-			border-collapse:collapse;
-			padding:5px;
-		}
-		table th {
-			border:0px none;
-			padding:5px;
-		}
-		table td {
-			border:0px none;
-			text-align:center;
-			padding:5px;
-			background: #ffffff;
-			color: #313030;
-		}
-	</style>
-</head>
-<body>
-	<table>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a> <br><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-		</tbody>
-	</table>
-
-<!--
 | [AMOLED Black v2](./resources/SxC_AMOLEDblackV2_index.md) | [Binary](./resources/SxC_binary_index.md) | [Camo Cobalt](./resources/SxC_camoCobalt_index.md) |
 
 | [Camo Green](./resources/SxC_camoGreen_index.md) | [Camo Urban](./resources/SxC_camoUrban_index.md) | [CPN Hacking v2](./resources/SxC_CPN_HackingV2_index.md) |
@@ -97,4 +31,3 @@ Select a theme to view screenshots and download
 | [Nightshade](./resources/SxC_Nightshade_index.md) | [Purple](./resources/SxC_purple_index.md) | [Red](./resources/SxC_red_index.md) |
 
 | [Session (dark)](./resources/SxC_SessionDark_index.md) | [The Shining](./resources/SxC_The_ShiningV2_index.md) | [Yellow](./resources/SxC_yellow_index.md) |
--->
