@@ -18,7 +18,6 @@ Select a theme to view screenshots and download
 
 [renderTest](./resources/renderTest.md)
 
-<!--
 <body>
 	<table border="1">
 		<thead>
@@ -35,6 +34,10 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_camoCobalt_index.md" target="blank"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
+	</table>
+</body>
+
+<!--
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
