@@ -31,9 +31,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_camoCobalt_index.md"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-
-		<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
@@ -48,9 +45,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_CPN_HackingV2_index.md"><img src="./screenshots/SxC_CPN_HackingV201.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-
-		<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_cyan_index.md">Cyan</a></td>
@@ -65,9 +59,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-	<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_electricBlue_index.md">Electric Blue</a></td>
@@ -82,9 +73,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_IT_Slate_index.md"><img src="./screenshots/SxC_IT_Slate01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-	<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_lazySunday_index.md">Lazy Sunday</a></td>
@@ -99,9 +87,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_leaves_index.md"><img src="./screenshots/SxC_leaves01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_Lobster_index.md">Lobster</a></td>
@@ -116,9 +101,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_monaLisa_index.md"><img src="./screenshots/SxC_monaLisa01" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_Nightshade_index.md">Nightshade</a></td>
@@ -133,9 +115,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_red_index.md"><img src="./screenshots/SxC_red01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_SessionDark_index.md">Session (dark)</a></td>
