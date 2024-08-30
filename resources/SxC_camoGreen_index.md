@@ -8,4 +8,4 @@
 
 <img src="../screenshots/SxC_camoGreen03.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_camoGreen04.jpg" width="120">
 
-* [Return Home](/)
+* [Return Home](../)

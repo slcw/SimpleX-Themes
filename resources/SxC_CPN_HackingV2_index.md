@@ -8,4 +8,4 @@
 
 <img src="../screenshots/SxC_CPN_HackingV203.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_CPN_HackingV204.jpg" width="120">
 
-* [Return Home](/)
+* [Return Home](../)
