@@ -4,6 +4,15 @@
 
 * Download [Binary](../themes/SxC_binary.theme)
 
+* [Return Home](../)
+
+<!--
+![](../resources/SxC_themeBanner.jpg)
+
+# Binary
+
+* Download [Binary](../themes/SxC_binary.theme)
+
 	<table border="0">
 		<tbody>
 			<tr>
@@ -16,5 +25,4 @@
 			</tr>
 		</tbody>
 	</table>
-
-* [Return Home](../)
+-->
