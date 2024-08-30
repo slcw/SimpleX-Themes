@@ -16,6 +16,9 @@ Your theme file will be transferred to the Theme Archive and made available for 
 ## Download Themes
 Select a theme to view screenshots and download
 
+[renderTest](./resources/renderTest.md)
+
+<!--
 <body>
 	<table border="1">
 		<thead>
@@ -132,3 +135,4 @@ Select a theme to view screenshots and download
 		</tbody>
 	</table>
 </body>
+-->
