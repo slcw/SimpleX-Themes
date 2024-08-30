@@ -1,8 +1,10 @@
-<img src="../resources/SxC_themeBanner.jpg">
+![Banner](resources/SxC_themeBanner.jpg)
 
 # AMOLED Black v2
 
-* Download [AMOLED Black v2](../themes/SxC_AMOLEDblackV2.theme)
+* Download [AMOLED Black v2](themes/SxC_AMOLEDblackV2.theme)
+
+![](screenshots/SxC_AMOLEDblackV201.jpg)
 
 <img src="../screenshots/SxC_AMOLEDblackV201.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_AMOLEDblackV202.jpg" width="120">
 
