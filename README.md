@@ -57,7 +57,7 @@ Select a theme to view screenshots and download
 			<tr>
 				<td><a href="./resources/SxC_cyan_index.md"><img src="./screenshots/SxC_cyan01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_dark_index.md"><img src="./screenshots/SxC_dark01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.png" width="80"></a></td>
 			</tr>
 		</tbody>
 		<thead>
