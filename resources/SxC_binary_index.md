@@ -4,7 +4,6 @@
 
 * Download [Binary](../themes/SxC_binary.theme)
 
-<body>
 	<table border="0">
 		<tbody>
 			<tr>
@@ -17,6 +16,5 @@
 			</tr>
 		</tbody>
 	</table>
-</body> 
 
 * [Return Home](https://slcw.github.io/SimpleX-Themes)
