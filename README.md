@@ -20,18 +20,22 @@ Select a theme to view screenshots and download
 	<table>
 		<thead>
 			<tr>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md">AMOLED Black</a></td>
-				<td><a href="./resources/SxC_binary_index.md">Binary</a></td>
-				<td><a href="./resources/SxC_camoCobalt_index.md">Camo Cobalt</a></td>
+				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank">AMOLED Black</a></td>
+				<td><a href="./resources/SxC_binary_index.md" target="_blank">Binary</a></td>
+				<td><a href="./resources/SxC_camoCobalt_index.md" target="_blank">Camo Cobalt</a></td>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_binary_index.md"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_camoCobalt_index.md"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_binary_index.md" target="_blank"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_camoCobalt_index.md" target="blank"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
+</table>
+</body>
+		
+<!--
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
@@ -130,5 +134,4 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_yellow_index.md"><img src="./screenshots/SxC_yellow01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-</body>
+-->
