@@ -32,6 +32,8 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_camoCobalt_index.md" target="blank"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
+</table>
+</body>
 		
 <!--
 		<thead>
@@ -133,6 +135,3 @@ Select a theme to view screenshots and download
 			</tr>
 		</tbody>
 -->
-
-	</table>
-</body>
