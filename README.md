@@ -70,7 +70,7 @@ Select a theme to view screenshots and download
 		<tbody>
 			<tr>
 				<td><a href="./resources/SxC_electricBlue_index.md"><img src="./screenshots/SxC_ElectricBlue01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_green_index.md"><img src="./screenshots/SxC_green01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_green_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.png" width="80"></a></td>
 				<td><a href="./resources/SxC_IT_Slate_index.md"><img src="./screenshots/SxC_IT_Slate01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
@@ -97,9 +97,9 @@ Select a theme to view screenshots and download
 		</thead>
 		<tbody>
 			<tr>
-				<td><a href="./resources/SxC_Lobster_index.md"><img src="./screenshots/SxC_Lobster01" width="80"></a></td>
+				<td><a href="./resources/SxC_Lobster_index.md"><img src="./screenshots/SxC_Lobster01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_mocca_index.md"><img src="./screenshots/SxC_mocca01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_monaLisa_index.md"><img src="./screenshots/SxC_monaLisa01" width="80"></a></td>
+				<td><a href="./resources/SxC_monaLisa_index.md"><img src="./screenshots/SxC_monaLisa01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
 		<thead>
