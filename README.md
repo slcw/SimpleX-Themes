@@ -16,6 +16,7 @@ Your theme file will be transferred to the Theme Archive and made available for 
 ## Download Themes
 Select a theme to view screenshots and download
 
+<body>
 	<table>
 		<thead>
 			<tr>
@@ -31,9 +32,6 @@ Select a theme to view screenshots and download
 				<td><a href="./resources/SxC_camoCobalt_index.md"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-	
-<!--
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
@@ -133,4 +131,4 @@ Select a theme to view screenshots and download
 			</tr>
 		</tbody>
 	</table>
--->
+</body>
