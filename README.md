@@ -7,8 +7,8 @@ You can submit your themes to the repository by joining the [SimpleX Themes grou
 ## How to contribute a theme
 
 1. Create your theme in the SimpleX Chat app. 
-2. Export your theme to a file and give it a descriptive name in the following format – e.g., `SxC_themeName.theme`. If your theme name has a space, use an underscore (_) — e.g., `SxC_theme_name.theme`
-3. Join the [SimpleX Themes group](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhpq7_4gGJiilmz5Rf-CswuU5kZGkm_zOIooSw6yALRg%3D%40smp5.simplex.im%2FjwFqICow91mcVNxBF2GXXF5Uq4H27goC%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAOYs_RwIB67iDC_ORPmBpp-oED4Ric3oYkID4kdkMdGs%253D%26srv%3Djjbyvoemxysm7qxap7m5d5m35jzv5qq6gnlv7s4rsn7tdwwmuqciwpid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22jpatHRdLkjwNmbWBc-VWcg%3D%3D%22%7D)
+2. Export your theme to file and give it a descriptive name in the following format – e.g., `SxC_themeName.theme`. If your theme name has a space, use an underscore (_) — e.g., `SxC_theme_name.theme`
+3. Join the [SimpleX Themes group](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhpq7_4gGJiilmz5Rf-CswuU5kZGkm_zOIooSw6yALR%40smp5.simplex.im%2FjwFqICow91mcVNxBF2GXXF5Uq4H27goC%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAOYs_RwIB67iDC_ORPmBpp-oED4Ric3oYkID4kdkMdGs%253D%26srv%3Djjbyvoemxysm7qxap7m5d5m35jzv5qq6gnlv7s4rsn7tdwwmuqciwpid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22jpatHRdLkjwNmbWBc-VWcg%3D%3D%22%7D)
 4. Upload your theme file to the group.
 
 Your theme file will be transferred to the Theme Archive and made available for download. 
@@ -16,28 +16,22 @@ Your theme file will be transferred to the Theme Archive and made available for 
 ## Download Themes
 Select a theme to view screenshots and download
 
-[renderTest](./resources/renderTest.md)
-
 <body>
-	<table border="1">
+	<table>
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank">AMOLED Black</a></td>
-				<td><a href="./resources/SxC_binary_detail.md" target="_blank">Binary</a></td>
+				<td><a href="./resources/SxC_binary_index.md" target="_blank">Binary</a></td>
 				<td><a href="./resources/SxC_camoCobalt_index.md" target="_blank">Camo Cobalt</a></td>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_binary_detail.md" target="_blank"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
+				<td><a href="./resources/SxC_binary_index.md" target="_blank"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
 				<td><a href="./resources/SxC_camoCobalt_index.md" target="blank"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
 			</tr>
 		</tbody>
-	</table>
-</body>
-
-<!--
 		<thead>
 			<tr>
 				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
@@ -138,4 +132,3 @@ Select a theme to view screenshots and download
 		</tbody>
 	</table>
 </body>
--->
