@@ -16,119 +16,13 @@ Your theme file will be transferred to the Theme Archive and made available for 
 ## Download Themes
 Select a theme to view screenshots and download
 
-<body>
-	<table border="1">
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank">AMOLED Black</a></td>
-				<td><a href="./resources/SxC_binary_index.md" target="_blank">Binary</a></td>
-				<td><a href="./resources/SxC_camoCobalt_index.md" target="_blank">Camo Cobalt</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_AMOLEDblackV2_index.md" target="_blank"><img src="./screenshots/SxC_AMOLEDblackV201.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_binary_index.md" target="_blank"><img src="./screenshots/SxC_binary01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_camoCobalt_index.md" target="blank"><img src="./screenshots/SxC_camoCobalt01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_camoGreen_index.md">Camo Green</a></td>
-				<td><a href="./resources/SxC_camoUrban_index.md">Camo Urban</a></td>
-				<td><a href="./resources/SxC_CPN_HackingV2_index.md">CPN Hacking</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_camoGreen_index.md"><img src="./screenshots/SxC_camoGreen01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_camoUrban_index.md"><img src="./screenshots/SxC_camoUrban01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_CPN_HackingV2_index.md"><img src="./screenshots/SxC_CPN_HackingV201.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_cyan_index.md">Cyan</a></td>
-				<td><a href="./resources/SxC_dark_index.md">Dark</a></td>
-				<td><a href="./resources/SxC_darkGreen_index.md">Dark Green</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_cyan_index.md"><img src="./screenshots/SxC_cyan01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_dark_index.md"><img src="./screenshots/SxC_dark01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_darkGreen_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.png" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_electricBlue_index.md">Electric Blue</a></td>
-				<td><a href="./resources/SxC_green_index.md">Green</a></td>
-				<td><a href="./resources/SxC_IT_Slate_index.md">IT Slate</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_electricBlue_index.md"><img src="./screenshots/SxC_ElectricBlue01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_green_index.md"><img src="./screenshots/SxC_darkGreen_screenshot01.png" width="80"></a></td>
-				<td><a href="./resources/SxC_IT_Slate_index.md"><img src="./screenshots/SxC_IT_Slate01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_lazySunday_index.md">Lazy Sunday</a></td>
-				<td><a href="./resources/SxC_light_index.md">Light</a></td>
-				<td><a href="./resources/SxC_leaves_index.md">Leaves</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_lazySunday_index.md"><img src="./screenshots/SxC_lazySunday01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_light_index.md"><img src="./screenshots/SxC_light01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_leaves_index.md"><img src="./screenshots/SxC_leaves01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_Lobster_index.md">Lobster</a></td>
-				<td><a href="./resources/SxC_mocca_index.md">Mocca</a></td>
-				<td><a href="./resources/SxC_monaLisa_index.md">Mona Lisa</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_Lobster_index.md"><img src="./screenshots/SxC_Lobster01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_mocca_index.md"><img src="./screenshots/SxC_mocca01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_monaLisa_index.md"><img src="./screenshots/SxC_monaLisa01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_Nightshade_index.md">Nightshade</a></td>
-				<td><a href="./resources/SxC_purple_index.md">Purple</a></td>
-				<td><a href="./resources/SxC_red_index.md">Red</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_Nightshade_index.md"><img src="./screenshots/SxC_Nightshade01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_purple_index.md"><img src="./screenshots/SxC_purple01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_red_index.md"><img src="./screenshots/SxC_red01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-		<thead>
-			<tr>
-				<td><a href="./resources/SxC_SessionDark_index.md">Session (dark)</a></td>
-				<td><a href="./resources/SxC_The_Shining_index.md">The Shining</a></td>
-				<td><a href="./resources/SxC_yellow_index.md">Yellow</a></td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><a href="./resources/SxC_SessionDark_index.md"><img src="./screenshots/SxC_SessionDark01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_The_Shining_index.md"><img src="./screenshots/SxC_The_Shining01.jpg" width="80"></a></td>
-				<td><a href="./resources/SxC_yellow_index.md"><img src="./screenshots/SxC_yellow01.jpg" width="80"></a></td>
-			</tr>
-		</tbody>
-	</table>
-</body>
+|                                                        |                                                     |                                                       |
+|--------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|
+| [AMOLED Black](./resources/SxC_AMOLEDblackV2_index.md) | [Binary](./resources/SxC_binary_index.md)           | [Camo Cobalt](./resources/SxC_camoCobalt_index.md)    |
+| [Camo Green](./resources/SxC_camoGreen_index.md)       | [Camo Urban](./resources/SxC_camoUrban_index.md)    | [CPN Hacking](./resources/SxC_CPN_HackingV2_index.md) |
+| [Cyan](./resources/SxC_cyan_index.md)                  | [Dark](./resources/SxC_dark_index.md)               | [Dark Green](./resources/SxC_darkGreen_index.md)      |
+| [Electric Blue](./resources/SxC_electricBlue_index.md) | [Green](./resources/SxC_green_index.md)             | [IT Slate](./resources/SxC_IT_Slate_index.md)         |
+| [Lazy Sunday](./resources/SxC_lazySunday_index.md)     | [Light](./resources/SxC_light_index.md)             | [Leaves](./resources/SxC_leaves_index.md)             |
+| [Lobster](./resources/SxC_Lobster_index.md)            | [Mocca](./resources/SxC_mocca_index.md)             | [Mona Lisa](./resources/SxC_monaLisa_index.md)        |
+| [Nightshade](./resources/SxC_Nightshade_index.md)      | [Purple](./resources/SxC_purple_index.md)           | [Red](./resources/SxC_red_index.md)                   |
+| [Session Dark](./resources/SxC_SessionDark_index.md)   | [The Shining](./resources/SxC_The_Shining_index.md) | [Yellow](./resources/SxC_yellow_index.md)             |
