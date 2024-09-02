@@ -1,4 +1,4 @@
-<img src="../resources/SxC_themeBanner.jpg">
+![](../resources/SxC_themeBanner.jpg)
 
 # Mona Lisa
 
