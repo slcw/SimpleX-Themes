@@ -2,7 +2,7 @@
 
 # Electric Blue
 
-* Download [Electric Blue](../themes/SxC_ElectricBlue.theme)
+* Download [Electric Blue](../themes/SxC_electricBlue.theme)
 
 <a href="../screenshots/SxC_ElectricBlue01.jpg" target="_blank">
 	<img src="../screenshots/SxC_ElectricBlue01.jpg" width="120">
