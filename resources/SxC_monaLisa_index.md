@@ -1,4 +1,4 @@
-![](../resources/SxC_themeBanner.jpg)
+![SxC Theme Archive Banner](../resources/SxC_themeBanner06.jpg)
 
 # Mona Lisa
 
