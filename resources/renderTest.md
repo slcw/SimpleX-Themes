@@ -1,4 +1,4 @@
-![](../resources/SxC_themeBanner.jpg)
+![](../resources/SxC_themeBanner.png)
 
 # renderTest
 
