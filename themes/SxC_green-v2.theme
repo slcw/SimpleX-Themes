@@ -1,0 +1,19 @@
+base: "SIMPLEX"
+colors:
+  accent: "#ffa9f970"
+  accentVariant: "#ff55a512"
+  secondary: "#ff5b8509"
+  secondaryVariant: "#ff224705"
+  background: "#ff1e2811"
+  menus: "#ff2b3712"
+  title: "#ff8ae526"
+  accentVariant2: "#ff274117"
+  sentMessage: "#ff2e4718"
+  sentReply: "#ff396f1f"
+  receivedMessage: "#ff264c00"
+  receivedReply: "#ff336400"
+wallpaper:
+  preset: "flowers"
+  scale: 2.0
+  background: "#ff1d2811"
+  tint: "#ff36600f"

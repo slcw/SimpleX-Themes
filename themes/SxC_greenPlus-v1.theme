@@ -1,0 +1,19 @@
+base: "BLACK"
+colors:
+  accent: "#ffa5df19"
+  accentVariant: "#ff1a5a32"
+  secondary: "#ff1c8f1d"
+  secondaryVariant: "#ff2b2c2e"
+  background: "#ff252222"
+  menus: "#ff051e0e"
+  title: "#ff1f8c4b"
+  accentVariant2: "#ffffb300"
+  sentMessage: "#ff2b2c2e"
+  sentReply: "#ff383c42"
+  receivedMessage: "#ff2b2c2e"
+  receivedReply: "#ff282b25"
+wallpaper:
+  preset: "flowers"
+  scale: 2.0
+  background: "#ff2b2c2e"
+  tint: "#ff31560d"
