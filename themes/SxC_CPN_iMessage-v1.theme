@@ -1,0 +1,11 @@
+base: "DARK"
+colors:
+  accent: "#ff1780ff"
+  accentVariant: "#ff1d71ff"
+  secondary: "#ffb9b9b9"
+  secondaryVariant: "#ff404144"
+  background: "#ff000000"
+  menus: "#ff222222"
+  title: "#ffffffff"
+  sentMessage: "#fe0d7dff"
+  receivedMessage: "#20b1b0b5"
