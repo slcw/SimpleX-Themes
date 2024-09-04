@@ -2,7 +2,7 @@
 
 # Green v1
 
-* Download [Green v1](../themes/SxC_green-v1-v1.theme)
+* Download [Green v1](../themes/SxC_green-v1.theme)
 
 <img src="../screenshots/SxC_green-v101.jpg" width="120">&nbsp;&nbsp;&nbsp;<img src="../screenshots/SxC_green-v102.jpg" width="120">
 
