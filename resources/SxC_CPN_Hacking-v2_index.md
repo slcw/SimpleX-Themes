@@ -18,4 +18,4 @@
 	<img src="../screenshots/SxC_CPN_Hacking-v204.jpg" width="120">
 </a>
 
-* [Return Home](/)
+* [Return Home](../)
