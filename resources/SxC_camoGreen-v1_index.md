@@ -1,8 +1,8 @@
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner06.jpg)
 
-# Camo Green
+# Camo Green v1
 
-* Download [Camo Green](../themes/SxC_camoGreen.theme)
+* Download [Camo Green v1](../themes/SxC_camoGreen.theme)
 
 <a href="../screenshots/SxC_camoGreen01.jpg" target="_blank">
 	<img src="../screenshots/SxC_camoGreen01.jpg" width="120">
