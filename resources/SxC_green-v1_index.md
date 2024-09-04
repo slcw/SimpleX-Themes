@@ -18,4 +18,4 @@
 	<img src="../screenshots/SxC_green-v104.jpg" width="120">
 </a>
 
-* [Return Home](/)
+* [Return Home](../)
