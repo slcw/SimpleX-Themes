@@ -1,4 +1,4 @@
-![](./resources/SxC_themeBanner06.jpg)
+![SxC Theme Archive Banner](./resources/SxC_themeBanner.png)
 
 _The SimpleX Theme Archive is an independent, community project not affiliated with [SimpleX](https://simplex.chat)_
 
