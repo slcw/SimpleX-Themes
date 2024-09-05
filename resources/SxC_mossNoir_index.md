@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_mossNoir04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ff559817"
+  accentVariant: "#ff40a626"
+  secondary: "#ff676666"
+  secondaryVariant: "#ff595f60"
+  background: "#ff202220"
+  menus: "#ff3a3b3a"
+  title: "#f8c5c7c6"
+  sentMessage: "#fa2c2c2c"
+  receivedMessage: "#20b1b0b5"
+```
+
 * [Return Home](../)

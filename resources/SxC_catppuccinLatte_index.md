@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_catppuccinLatte04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "LIGHT"
+colors:
+  accent: "#ff8839ef"           # mauve
+  accentVariant: "#ff4c4f69"    # text
+  secondary: "#ff8839ef"        # mauve
+  secondaryVariant: "#ff4c4f69" # text
+  background: "#ffeff1f5"       # base
+  menus: "#ffccd0da"            # surface0
+  title: "#ff8839ef"            # mauve
+  sentMessage: "#ffccd0da"      # surface0
+  receivedMessage: "#ffccd0da"  # surface0
+```
+
 * [Return Home](../)

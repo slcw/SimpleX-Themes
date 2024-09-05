@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_CPN_vaporwave04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "LIGHT"
+colors:
+  accent: "#ffe800ff"
+  accentVariant: "#ffff00c1"
+  secondary: "#ff4bcdff"
+  secondaryVariant: "#ff94009a"
+  background: "#ff00a4cc"
+  menus: "#ff0086c1"
+  title: "#ff0027ff"
+  sentMessage: "#ffd38ae1"
+  receivedMessage: "#ffeeb2e9"
+```
+
 * [Return Home](../)

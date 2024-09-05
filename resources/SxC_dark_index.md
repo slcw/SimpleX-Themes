@@ -18,4 +18,28 @@
 	<img src="../screenshots/SxC_dark04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ff70f0f9"
+  accentVariant: "#ff1298a5"
+  secondary: "#ff8b8786"
+  secondaryVariant: "#ff2c464d"
+  background: "#ff111528"
+  menus: "#ff121c37"
+  title: "#ff267be5"
+  accentVariant2: "#ff172941"
+  sentMessage: "#ff59586e"
+  sentReply: "#ff113457"
+  receivedMessage: "#ff25283a"
+  receivedReply: "#ff36394a"
+wallpaper:
+  scale: 1.0
+  scaleType: "fill"
+  background: "#ff111528"
+  tint: "#00ffffff"
+```
+
 * [Return Home](../)

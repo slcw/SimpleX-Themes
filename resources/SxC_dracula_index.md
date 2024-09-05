@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_dracula04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "LIGHT"
+colors:
+  accent: "#ffbd93f9"
+  accentVariant: "#ffbd93f9"
+  secondary: "#fff8f8f2"
+  secondaryVariant: "#ff6272a4"
+  background: "#ff282a36"
+  menus: "#ff44475a"
+  title: "#ff50FA7B"
+  sentMessage: "#ff6272a4"
+  receivedMessage: "#ff44475a"
+```
+
 * [Return Home](../)

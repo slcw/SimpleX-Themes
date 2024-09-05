@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_joker04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ffa070f9"
+  accentVariant: "#ffa5125b"
+  secondary: "#ff00b407"
+  secondaryVariant: "#ff006235"
+  background: "#ff251a19"
+  menus: "#ff522f7e"
+  title: "#ffe52926"
+  sentMessage: "#1e45b8ff"
+  receivedMessage: "#20b1b0b5"
+```
+
 * [Return Home](../)

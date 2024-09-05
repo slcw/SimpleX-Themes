@@ -18,4 +18,28 @@
 	<img src="../screenshots/SxC_IT_Slate04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "BLACK"
+colors:
+  accent: "#ff889a9a"
+  accentVariant: "#ff495e5e"
+  secondary: "#ffe3e3e3"
+  secondaryVariant: "#ff2b2c2e"
+  background: "#ff111518"
+  menus: "#ff161617"
+  title: "#ff909c9c"
+  accentVariant2: "#ff243747"
+  sentMessage: "#bb1e202a"
+  sentReply: "#ff393b44"
+  receivedMessage: "#c5424351"
+  receivedReply: "#ff313237"
+wallpaper:
+  scale: 1.0
+  scaleType: "fill"
+  background: "#ff070707"
+  tint: "#00ffffff"
+```
+
 * [Return Home](../)
