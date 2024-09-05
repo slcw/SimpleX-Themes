@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_CPN_Hacking-v104.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ff20c34d"
+  accentVariant: "#ff00da01"
+  secondary: "#ff007c0b"
+  secondaryVariant: "#ff116819"
+  background: "#ff0a0a0a"
+  menus: "#ff031303"
+  title: "#ff4cf453"
+  sentMessage: "#1e00d124"
+  receivedMessage: "#20313030"
+```
+
 * [Return Home](../)

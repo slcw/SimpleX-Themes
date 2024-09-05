@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_girly04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ffeb114d"
+  accentVariant: "#ffd10e76"
+  secondary: "#ffb8005c"
+  secondaryVariant: "#ffff0072"
+  background: "#ff5d001f"
+  menus: "#ff720038"
+  title: "#ffc90062"
+  sentMessage: "#1e45b8ff"
+  receivedMessage: "#20b1b0b5"
+```
+
 * [Return Home](../)

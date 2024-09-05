@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_greenNight-v104.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#fff9c470"
+  accentVariant: "#ff0088ff"
+  secondary: "#ff00ff21"
+  secondaryVariant: "#ff5f00ff"
+  background: "#fe2a251e"
+  menus: "#ff4f1492"
+  title: "#ff0088ff"
+  sentMessage: "#3200ff07"
+  receivedMessage: "#36ffa300"
+```
+
 * [Return Home](../)

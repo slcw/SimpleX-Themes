@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_hotdog04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "LIGHT"
+colors:
+  accent: "#ffff0000"
+  accentVariant: "#ffff0000"
+  secondary: "#ff000000"
+  secondaryVariant: "#ff000000"
+  background: "#fffaff00"
+  menus: "#fffdfd00"
+  title: "#ff000000"
+  sentMessage: "#ff0000"
+  receivedMessage: "#ffff0000"
+```
+
 * [Return Home](../)

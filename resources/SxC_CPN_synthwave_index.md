@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_CPN_synthwave04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "DARK"
+colors:
+  accent: "#ffd11564"
+  accentVariant: "#ffd96e00"
+  secondary: "#ffbb3200"
+  secondaryVariant: "#fffa2e88"
+  background: "#ff220023"
+  menus: "#ff480037"
+  title: "#ffe24a94"
+  sentMessage: "#ff210076"
+  receivedMessage: "#ff3a00b9"
+```
+
 * [Return Home](../)

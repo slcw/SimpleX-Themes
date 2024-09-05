@@ -18,4 +18,20 @@
 	<img src="../screenshots/SxC_catppuccinMocha-v104.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "DARK"
+colors:
+  accent: "#fff5c2e7"           # pink
+  accentVariant: "#ffcba6f7"    # mauve
+  secondary: "#fff5c2e7"        # pink
+  secondaryVariant: "#ffcba6f7" # mauve
+  background: "#ff1e1e2e"       # base
+  menus: "#ff313244"            # surface0
+  title: "#ffb4befe"            # lavender
+  sentMessage: "#ff313244"      # surface0
+  receivedMessage: "#ff313244"  # surface0
+```
+
 * [Return Home](../)

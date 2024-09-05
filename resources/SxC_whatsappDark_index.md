@@ -18,4 +18,28 @@
 	<img src="../screenshots/SxC_whatsappDark04.jpg" width="120">
 </a>
 
+----
+### Theme Properties
+```
+base: "SIMPLEX"
+colors:
+  accent: "#ff00a884"
+  accentVariant: "#ff1298a5"
+  secondary: "#ff85939e"
+  secondaryVariant: "#ff657781"
+  background: "#ff111e27"
+  menus: "#ff313244"
+  title: "#fffefefb"
+  accentVariant2: "#ff657781"
+  sentMessage: "#ff025f4e"
+  sentReply: "#ff144c44"
+  receivedMessage: "#ff26333c"
+  receivedReply: "#20cdd6f4"
+wallpaper:
+  scale: 1.0
+  scaleType: "fill"
+  background: "#ff1e1e2e"
+  tint: "#00ffffff"
+```
+
 * [Return Home](../)
