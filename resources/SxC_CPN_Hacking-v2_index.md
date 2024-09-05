@@ -1,4 +1,4 @@
-<img src="../resources/SxC_themeBanner.jpg">
+![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # CPN Hacking v2
 
