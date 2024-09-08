@@ -2,7 +2,7 @@
 
 # Sandy Symphony v2
 
-* Download [Sandy Symphony v2](../themes/SxC_sandySymphony-v2theme)
+* Download [Sandy Symphony v2](../themes/SxC_sandySymphony-v2.theme)
 
 <a href="../screenshots/SxC_sandySymphony-v201.jpg" target="_blank">
 		<img src="../screenshots/SxC_sandySymphony-v201.jpg" width="120">
