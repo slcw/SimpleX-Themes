@@ -1,0 +1,19 @@
+base: "LIGHT"
+colors:
+  accent: "#ff00721d"
+  accentVariant: "#ffdbfadc"
+  secondary: "#ff504e4e"
+  secondaryVariant: "#ff4e4e4f"
+  background: "#ffffffff"
+  menus: "#ffe2e3e4"
+  title: "#ff04ba5b"
+  accentVariant2: "#ff6b7175"
+  sentMessage: "#ffc4f8ce"
+  sentReply: "#ffb4ebbd"
+  receivedMessage: "#fff3f5f9"
+  receivedReply: "#ffe4e8ee"
+wallpaper:
+  preset: "school"
+  scale: 1.0052183
+  background: "#fffbfcf2"
+  tint: "#ffdedfd9"
