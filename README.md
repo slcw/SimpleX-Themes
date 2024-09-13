@@ -1,7 +1,5 @@
 ![SxC Theme Archive Banner](./resources/SxC_themeBanner.png)
 
-_The SimpleX Theme Archive is an independent, community project not affiliated with [SimpleX Chat](https://simplex.chat)_
-
 You can submit your themes to the repository by joining the [SimpleX Themes group](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhpq7_4gGJiilmz5Rf-CswuU5kZGkm_zOIooSw6yALRg%3D%40smp5.simplex.im%2FjwFqICow91mcVNxBF2GXXF5Uq4H27goC%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAOYs_RwIB67iDC_ORPmBpp-oED4Ric3oYkID4kdkMdGs%253D%26srv%3Djjbyvoemxysm7qxap7m5d5m35jzv5qq6gnlv7s4rsn7tdwwmuqciwpid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22jpatHRdLkjwNmbWBc-VWcg%3D%3D%22%7D) and uploading your theme file. 
 
 ## How to contribute a theme
