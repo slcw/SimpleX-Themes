@@ -1,0 +1,11 @@
+base: "SIMPLEX"
+colors:
+  accent: "#ffff0000"
+  accentVariant: "#ff004000"
+  secondary: "#ffffff00"
+  secondaryVariant: "#ff00ffff"
+  background: "#ff000000"
+  menus: "#ff000040"
+  title: "#ffffffff"
+  sentMessage: "#ff200000"
+  receivedMessage: "#ff000020"
