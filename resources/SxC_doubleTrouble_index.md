@@ -41,5 +41,8 @@ wallpaper:
   background: "#ff000000"
   tint: "#37000000"
 ```
+----
+### Credits
+Wallpaper Art — _@AmiThompson_h (Twitter)_
 
 * [Return Home](../)
