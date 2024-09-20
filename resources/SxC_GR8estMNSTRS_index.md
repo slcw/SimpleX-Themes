@@ -44,7 +44,8 @@ wallpaper:
 ----
 ### Credits
 Wallpaper artwork — _David Haller (Legion on FX)_
-Wallpaper Source — _u/st4t1cshock (reddit)_
+
+Source — _u/st4t1cshock (reddit)_
 
 
 * [Return Home](../)
