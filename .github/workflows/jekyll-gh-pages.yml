@@ -31,7 +31,7 @@ jobs:
       - name: Count themes
         run: |
           if grep -q "Themes count:" README.md; then
-            sed -i "/Themes count:/c\Themes count: $(find ./themes/ -type f -name '*.theme' | wc -l)" README.md
+            sed -i "/# Themes count:/c\# Themes count: $(find ./themes/ -type f -name '*.theme' | wc -l)" README.md
           fi
 
       - name: "Push"
