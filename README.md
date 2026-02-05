@@ -12,6 +12,7 @@ create PR through github
 
 ### Send patch by email
 [sr.ht](https://git.sr.ht/~osowoso/SimpleX-Themes/send-email)  
+[How to](https://git-send-email.io/)
 
 ### Manual
 1. Create your theme in the SimpleX Chat app. 
