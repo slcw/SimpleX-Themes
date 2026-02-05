@@ -6,6 +6,14 @@ You can submit your themes to the repository by joining the [SimpleX Themes grou
 
 ## How to contribute a theme
 
+### GitHub PR - easiest for us
+Look for other theme files in repository
+create PR through github
+
+### Send patch by email
+[sr.ht](https://git.sr.ht/~osowoso/SimpleX-Themes/send-email)  
+
+### Manual
 1. Create your theme in the SimpleX Chat app. 
 2. Export your theme to file and give it a descriptive name in the following format – e.g., `SxC_themeName.theme`. If your theme name has a space, use an underscore (_) — e.g., `SxC_theme_name.theme`
 3. Join the [SimpleX Themes group](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2Fhpq7_4gGJiilmz5Rf-CswuU5kZGkm_zOIooSw6yALR%40smp5.simplex.im%2FjwFqICow91mcVNxBF2GXXF5Uq4H27goC%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAOYs_RwIB67iDC_ORPmBpp-oED4Ric3oYkID4kdkMdGs%253D%26srv%3Djjbyvoemxysm7qxap7m5d5m35jzv5qq6gnlv7s4rsn7tdwwmuqciwpid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22jpatHRdLkjwNmbWBc-VWcg%3D%3D%22%7D)
