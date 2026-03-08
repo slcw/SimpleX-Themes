@@ -1,0 +1,69 @@
+name: Validate Theme
+
+on:
+  pull_request:
+    paths:
+      - 'themes/*.theme'
+
+jobs:
+  validate-theme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Validate theme files
+        run: |
+          # Check that each theme file has the required fields
+          for theme_file in themes/*.theme; do
+            echo "Validating $theme_file..."
+            
+            # Check for base field
+            if ! grep -q 'base:' "$theme_file"; then
+              echo "Error: $theme_file missing 'base:' field"
+              exit 1
+            fi
+            
+            # Check for required color fields
+            required_colors=("accent" "background" "menus")
+            for color in "${required_colors[@]}"; do
+              if ! grep -q "$color:" "$theme_file"; then
+                echo "Warning: $theme_file missing '$color:' field"
+              fi
+            done
+            
+            echo "$theme_file is valid"
+          done
+          
+          echo "All theme files validated successfully!"
+
+      - name: Check screenshots exist
+        run: |
+          echo "Checking that screenshots exist for new themes..."
+          
+          # Get list of theme files
+          themes=$(find themes -name '*.theme' -exec basename {} .theme \;)
+          
+          for theme in $themes; do
+            # Check if screenshots exist (either with 01-04 or v101-v104 pattern)
+            has_screenshots=false
+            
+            # Pattern 1: SxC_themeName01.jpg
+            if ls screenshots/SxC_${theme}0*.jpg 1> /dev/null 2>&1; then
+              has_screenshots=true
+            fi
+            
+            # Pattern 2: SxC_themeName-v101.jpg
+            if ls screenshots/SxC_${theme}-v1*.jpg 1> /dev/null 2>&1; then
+              has_screenshots=true
+            fi
+            
+            if [ "$has_screenshots" = false ]; then
+              echo "Warning: No screenshots found for $theme"
+            fi
+          done
