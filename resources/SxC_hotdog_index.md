@@ -1,3 +1,6 @@
+---
+giscus: hot-dog
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Hot Dog

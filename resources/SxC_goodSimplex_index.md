@@ -1,3 +1,6 @@
+---
+giscus: good-simplex
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Good Simplex

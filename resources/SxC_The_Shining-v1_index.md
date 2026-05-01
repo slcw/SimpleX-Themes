@@ -1,3 +1,6 @@
+---
+giscus: the-shining
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # The Shining v1

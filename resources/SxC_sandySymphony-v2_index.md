@@ -1,3 +1,6 @@
+---
+giscus: sandy-symphony
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Sandy Symphony v2

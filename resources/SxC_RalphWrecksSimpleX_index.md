@@ -1,3 +1,6 @@
+---
+giscus: ralph-wrecks-simplex
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Ralph Wrecks SimpleX 

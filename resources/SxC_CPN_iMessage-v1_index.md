@@ -1,3 +1,6 @@
+---
+giscus: cpn
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # CPN iMessage v1

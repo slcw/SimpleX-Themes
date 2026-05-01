@@ -1,3 +1,6 @@
+---
+giscus: radical-squadron
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Radical Squadron-Razor 

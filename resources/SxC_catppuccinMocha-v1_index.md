@@ -1,3 +1,6 @@
+---
+giscus: catppuccin
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Catppuccin Mocha v1

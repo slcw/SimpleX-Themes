@@ -1,3 +1,6 @@
+---
+giscus: binary
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Binary

@@ -1,3 +1,6 @@
+---
+giscus: w-i-d-e
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # W I D E 

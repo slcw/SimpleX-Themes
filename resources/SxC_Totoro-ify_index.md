@@ -1,3 +1,6 @@
+---
+giscus: totoro-ify
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Totoro-ify 

@@ -1,3 +1,6 @@
+---
+giscus: no-amoled
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # No AMOLED

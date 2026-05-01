@@ -1,122 +1,61 @@
 [
-  {
-    "id": "nightshade",
-    "name": "Nightshade",
-    "discussion": 5
-  },
-  {
-    "id": "nightshade-v2",
-    "name": "Nightshade v2",
-    "discussion": 6
-  },
-  {
-    "id": "nightshade-v2_1",
-    "name": "Nightshade v2.1",
-    "discussion": 7
-  },
-  {
-    "id": "nightshade-v2_2",
-    "name": "Nightshade v2.2",
-    "discussion": 8
-  },
-  {
-    "id": "nightshade-v2_3",
-    "name": "Nightshade v2.3",
-    "discussion": 9
-  },
-  {
-    "id": "amoled-black",
-    "name": "AMOLED Black",
-    "discussion": 10
-  },
-  {
-    "id": "amoled-black-v2",
-    "name": "AMOLED Black v2",
-    "discussion": 11
-  },
-  {
-    "id": "catppuccin-mocha-v2",
-    "name": "Catppuccin Mocha v2",
-    "discussion": 12
-  },
-  {
-    "id": "catppuccin-latte",
-    "name": "Catppuccin Latte",
-    "discussion": 13
-  },
-  {
-    "id": "catppuccin-frappe",
-    "name": "Catppuccin Frappe",
-    "discussion": 14
-  },
-  {
-    "id": "catppuccin-macchiato",
-    "name": "Catppuccin Macchiato",
-    "discussion": 15
-  },
-  {
-    "id": "green-v2",
-    "name": "Green v2",
-    "discussion": 16
-  },
-  {
-    "id": "green-plus-v1",
-    "name": "Green Plus v1",
-    "discussion": 17
-  },
-  {
-    "id": "green-plus-v1_5",
-    "name": "Green Plus v1.5",
-    "discussion": 18
-  },
-  {
-    "id": "green-night-v1",
-    "name": "Green Night v1",
-    "discussion": 19
-  },
-  {
-    "id": "dusk",
-    "name": "Dusk",
-    "discussion": 20
-  },
-  {
-    "id": "dusk-v2",
-    "name": "Dusk v2",
-    "discussion": 21
-  },
-  {
-    "id": "dark",
-    "name": "Dark",
-    "discussion": 22
-  },
-  {
-    "id": "light",
-    "name": "Light",
-    "discussion": 23
-  },
-  {
-    "id": "dracula",
-    "name": "Dracula",
-    "discussion": 24
-  },
-  {
-    "id": "solarized-darkish",
-    "name": "Solarized Darkish",
-    "discussion": 25
-  },
-  {
-    "id": "joker",
-    "name": "Joker",
-    "discussion": 26
-  },
-  {
-    "id": "mona-lisa",
-    "name": "Mona Lisa",
-    "discussion": 27
-  },
-  {
-    "id": "aurora-sunset",
-    "name": "Aurora Sunset",
-    "discussion": 28
-  }
+  {"id": "nightshade", "name": "Nightshade", "discussion": 5},
+  {"id": "amoled-black", "name": "AMOLED Black", "discussion": 10},
+  {"id": "catppuccin", "name": "Catppuccin", "discussion": 29},
+  {"id": "green", "name": "Green", "discussion": 30},
+  {"id": "dusk", "name": "Dusk", "discussion": 20},
+  {"id": "cpn", "name": "CPN", "discussion": 31},
+  {"id": "camo", "name": "Camo", "discussion": 32},
+  {"id": "whatsapp", "name": "WhatsApp", "discussion": 33},
+  {"id": "the-shining", "name": "The Shining", "discussion": 34},
+  {"id": "sandy-symphony", "name": "Sandy Symphony", "discussion": 35},
+  {"id": "dark", "name": "Dark", "discussion": 22},
+  {"id": "light", "name": "Light", "discussion": 23},
+  {"id": "dracula", "name": "Dracula", "discussion": 24},
+  {"id": "solarized-darkish", "name": "Solarized Darkish", "discussion": 25},
+  {"id": "joker", "name": "Joker", "discussion": 26},
+  {"id": "mona-lisa", "name": "Mona Lisa", "discussion": 27},
+  {"id": "aurora-sunset", "name": "Aurora Sunset", "discussion": 28},
+  {"id": "binary", "name": "Binary", "discussion": 36},
+  {"id": "black-sand", "name": "Black Sand", "discussion": 37},
+  {"id": "blue", "name": "Blue", "discussion": 38},
+  {"id": "cyan", "name": "Cyan", "discussion": 39},
+  {"id": "purple", "name": "Purple", "discussion": 40},
+  {"id": "red", "name": "Red", "discussion": 41},
+  {"id": "yellow", "name": "Yellow", "discussion": 42},
+  {"id": "electric-blue", "name": "Electric Blue", "discussion": 43},
+  {"id": "dark-blue-gold", "name": "Dark Blue Gold", "discussion": 44},
+  {"id": "dark-green", "name": "Dark Green", "discussion": 45},
+  {"id": "double-trouble", "name": "Double Trouble", "discussion": 46},
+  {"id": "girly", "name": "Girly", "discussion": 47},
+  {"id": "hot-dog", "name": "Hot Dog", "discussion": 48},
+  {"id": "good-simplex", "name": "Good SimpleX", "discussion": 49},
+  {"id": "simplex-default", "name": "Simplex Default", "discussion": 50},
+  {"id": "session-dark", "name": "Session Dark", "discussion": 51},
+  {"id": "lazy-sunday", "name": "Lazy Sunday", "discussion": 52},
+  {"id": "leaves", "name": "Leaves", "discussion": 53},
+  {"id": "bat-phone", "name": "Bat Phone", "discussion": 54},
+  {"id": "banana-split", "name": "Banana Split", "discussion": 55},
+  {"id": "bad-witch-lite", "name": "Bad Witch Lite", "discussion": 56},
+  {"id": "cassini-midnight", "name": "Cassini Midnight", "discussion": 57},
+  {"id": "cat", "name": "Cat", "discussion": 58},
+  {"id": "gr8est-mnstrs", "name": "GR8est MNSTRS", "discussion": 59},
+  {"id": "it-slate", "name": "IT Slate", "discussion": 60},
+  {"id": "japane-sea", "name": "Japane Sea", "discussion": 61},
+  {"id": "lobster", "name": "Lobster", "discussion": 62},
+  {"id": "mocca", "name": "Mocca", "discussion": 63},
+  {"id": "moss-noir", "name": "Moss Noir", "discussion": 64},
+  {"id": "no-amoled", "name": "No AMOLED", "discussion": 65},
+  {"id": "pink-panther", "name": "Pink Panther", "discussion": 66},
+  {"id": "psychedelick", "name": "Psychedelick", "discussion": 67},
+  {"id": "radical-squadron", "name": "Radical Squadron", "discussion": 68},
+  {"id": "ralph-wrecks-simplex", "name": "Ralph Wrecks SimpleX", "discussion": 69},
+  {"id": "random", "name": "Random", "discussion": 70},
+  {"id": "sage-dust", "name": "Sage Dust", "discussion": 71},
+  {"id": "smurf", "name": "Smurf", "discussion": 72},
+  {"id": "soft-twilight", "name": "Soft Twilight", "discussion": 73},
+  {"id": "totoro-ify", "name": "Totoro-ify", "discussion": 74},
+  {"id": "w-i-d-e", "name": "W I D E", "discussion": 75},
+  {"id": "2024-xmr-simplex", "name": "2024 XMR SimpleX", "discussion": 76},
+  {"id": "3a-rule", "name": "3a Rule", "discussion": 77}
 ]

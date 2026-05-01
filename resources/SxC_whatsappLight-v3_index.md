@@ -1,3 +1,6 @@
+---
+giscus: whatsapp
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # WhatsApp Light v3

@@ -1,3 +1,6 @@
+---
+giscus: gr8est-mnstrs
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # GR8est MNSTRS 

@@ -1,3 +1,6 @@
+---
+giscus: simplex-default
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # SimpleX Default
