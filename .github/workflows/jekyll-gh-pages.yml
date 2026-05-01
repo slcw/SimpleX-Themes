@@ -127,10 +127,11 @@ jobs:
                           if display:
                               star_display = f'<br>{display}'
 
-              # Make image clickable
-              linked_img = f'<a href="{page_path}">{img_tag}</a>'
+              # Make image clickable - remove ./ prefix and change .md to .html
+              clean_path = page_path.replace('./', '').replace('.md', '.html')
+              linked_img = f'<a href="{clean_path}">{img_tag}</a>'
 
-              return f'{linked_img}<br>[{theme_name}]({page_path}){star_display}'
+              return f'{linked_img}<br>[{theme_name}]({clean_path}){star_display}'
 
           updated_content = re.sub(cell_pattern, replace_cell, content)
 
