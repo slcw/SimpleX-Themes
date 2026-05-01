@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: banana-split
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Banana Split

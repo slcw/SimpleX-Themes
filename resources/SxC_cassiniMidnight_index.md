@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: cassini-midnight
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Cassini Midnight

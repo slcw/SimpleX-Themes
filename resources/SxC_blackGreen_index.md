@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: black-green
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Black Green

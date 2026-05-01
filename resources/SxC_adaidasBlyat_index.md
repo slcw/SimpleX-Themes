@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: adaidas-blyat
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Adaidas Blyat 

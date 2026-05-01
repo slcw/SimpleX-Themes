@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: dracula
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Dracula

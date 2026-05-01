@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: amoled-black
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # AMOLED Black v1

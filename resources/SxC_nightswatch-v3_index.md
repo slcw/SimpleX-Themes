@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: nightshade
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Nightswatch v3

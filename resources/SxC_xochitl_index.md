@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: xochitl
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Xochitl

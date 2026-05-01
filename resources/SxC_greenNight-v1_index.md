@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: green-night
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Green Night v1

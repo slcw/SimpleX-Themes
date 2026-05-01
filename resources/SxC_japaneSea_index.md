@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: japane-sea
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Japane Sea 

@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: pink-panther
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Pink Panther 

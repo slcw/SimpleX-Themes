@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: dark-blue-gold
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Dark Blue & Gold

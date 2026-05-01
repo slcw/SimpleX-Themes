@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: solarized-darkish
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Solarized Darkish

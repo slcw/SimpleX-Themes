@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: 2024-xmr-simplex
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # 2024 XMR SimpleX

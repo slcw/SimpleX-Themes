@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: cpn-synthwave
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # CPN Synthwave

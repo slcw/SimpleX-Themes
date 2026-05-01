@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: camo-urban
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Camo Urban

@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: moss-noir
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Moss Noir

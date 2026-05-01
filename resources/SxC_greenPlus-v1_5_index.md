@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: green-plus
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Green Plus v1.5

@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: camo-green
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Camo Green v1

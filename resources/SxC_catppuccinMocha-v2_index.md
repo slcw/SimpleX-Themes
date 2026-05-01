@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: catppuccin-mocha
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Catppuccin Mocha v2

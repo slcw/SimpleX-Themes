@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: whatsapp-dark
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # WhatsApp Dark

@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: catppuccin-frappe
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Catppuccin Frappe

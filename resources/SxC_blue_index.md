@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: blue
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Blue

@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: nurse-xochitl
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Nurse Xochitl

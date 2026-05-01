@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: bad-witch-lite
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Bad Witch Lite

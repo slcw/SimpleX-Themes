@@ -47,5 +47,28 @@
       </div>
     </footer>
     
+    {% if page.giscus %}
+    <hr>
+    <div class="container">
+      <h3>Comments</h3>
+      <script src="https://giscus.app/client.js"
+          data-repo="oSoWoSo/SimpleX-Themes"
+          data-repo-id="R_kgDOMoOy9A"
+          data-category="General"
+          data-category-id="DIC_kwDOMoOy9M4CvYxA"
+          data-mapping="specific"
+          data-term="{{ page.giscus }}"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="dark"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+      </script>
+    </div>
+    {% endif %}
+    
   </body>
 </html>

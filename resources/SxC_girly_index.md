@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: girly
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Girly

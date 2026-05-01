@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: whatsapp-green
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # WhatsApp Green v2

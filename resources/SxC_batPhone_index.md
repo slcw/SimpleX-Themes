@@ -1,3 +1,7 @@
+---
+layout: default
+giscus: bat-phone
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Bat Phone 
