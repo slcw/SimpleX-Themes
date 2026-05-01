@@ -6,6 +6,9 @@ giscus: black-green
 
 # Black Green
 
+<p class="theme-popularity">Popularity: ⭐ 1</p>
+
+
 * Download [Black Green](../themes/SxC_blackGreen.theme)
 
 <a href="../screenshots/SxC_blackGreen01.jpg" target="_blank">
