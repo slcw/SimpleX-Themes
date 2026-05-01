@@ -1,3 +1,6 @@
+---
+giscus: green-plus-v1_5
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Green Plus v1.5

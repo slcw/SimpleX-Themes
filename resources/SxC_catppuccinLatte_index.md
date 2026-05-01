@@ -1,3 +1,6 @@
+---
+giscus: catppuccin-latte
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Catppuccin Latte

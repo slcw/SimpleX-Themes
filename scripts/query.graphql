@@ -1,0 +1,13 @@
+query {
+  repository(owner: "oSoWoSo", name: "SimpleX-Themes") {
+    discussions(first: 5) {
+      nodes {
+        number
+        title
+        category {
+          name
+        }
+      }
+    }
+  }
+}

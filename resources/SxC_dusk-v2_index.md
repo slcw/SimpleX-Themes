@@ -1,3 +1,6 @@
+---
+giscus: dusk-v2
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Dusk v2

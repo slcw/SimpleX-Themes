@@ -1,3 +1,6 @@
+---
+giscus: mona-lisa
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Mona Lisa

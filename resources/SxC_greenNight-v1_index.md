@@ -1,3 +1,6 @@
+---
+giscus: green-night-v1
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Green Night v1

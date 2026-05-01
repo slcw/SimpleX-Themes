@@ -1,3 +1,6 @@
+---
+giscus: nightshade-v2
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Nightshade v2

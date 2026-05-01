@@ -1,3 +1,6 @@
+---
+giscus: catppuccin-macchiato
+---
 ![SxC Theme Archive Banner](../resources/SxC_themeBanner.png)
 
 # Catppuccin Macchiato

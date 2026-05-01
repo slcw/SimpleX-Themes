@@ -1,0 +1,14 @@
+mutation {
+  createDiscussion(input: {
+    repositoryId: "R_kgDOMoOy9A",
+    categoryId: "DIC_kwDOMoOy9M4CvYxA",
+    body: "Theme discussion and popularity tracking.\n\nTheme file: themes/SxC_Nightshade.theme",
+    title: "[Theme] Nightshade"
+  }) {
+    discussion {
+      id
+      number
+      title
+    }
+  }
+}
