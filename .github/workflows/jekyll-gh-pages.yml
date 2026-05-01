@@ -44,8 +44,8 @@ jobs:
 
       - name: "Push"
         run: |
-          git config --global user.name web-flow
-          git config --global user.email "noreply@github.com"
+          git config --global user.name "oSoWoSo-bot"
+          git config --global user.email "osowoso@disroot.org"
           if git diff --exit-code HEAD; then
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
             exit 0
