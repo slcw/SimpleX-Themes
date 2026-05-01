@@ -28,10 +28,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Count themes
+      - name: Count unique themes
         run: |
+          # Count unique theme families (not versions)
+          # Group by base name (remove -v* suffix)
+          find ./themes/ -type f -name '*.theme' | \
+            sed 's|.*/SxC_||; s|-v[0-9].*||; s|_.*||' | \
+            sort -u | wc -l > unique_count.txt
+          
+          UNIQUE=$(cat unique_count.txt)
+          
           if grep -q "Themes count:" README.md; then
-            sed -i "/# Themes count:/c\# Themes count: $(find ./themes/ -type f -name '*.theme' | wc -l)" README.md
+            sed -i "/# Themes count:/c\# Themes count: $UNIQUE (unique themes)" README.md
           fi
 
       - name: "Push"
