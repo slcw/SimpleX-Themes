@@ -102,29 +102,30 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
 
+          # First, remove ALL existing stars to prevent duplicates
+          content = re.sub(r'<br>⭐ \d+', '', content)
+
           # Match: <img ...><br>[ThemeName](path)
-          cell_pattern = '(<img src=([^ ]+) width=[^>]+>)<br>(\[([^\\]]+)\\]\\(([^)]+_index\\.md)\\))'
+          cell_pattern = r'(<img src=[^ ]+ width=[^>]+>)<br>(\[([^\]]+)\]\(([^)]+_index\.md)\))'
 
           def replace_cell(match):
               img_tag = match.group(1)
-              theme_name = match.group(4)
-              page_path = match.group(5)
+              theme_name = match.group(3)
+              page_path = match.group(4)
 
-              # Get star display only if not already present
-              full_match = match.group(0)
+              # Get star display from ratings
               star_display = ''
-              if '⭐' not in full_match:
-                  page_file = Path(page_path)
-                  if page_file.exists():
-                      with open(page_file, 'r') as pf:
-                          pf_content = pf.read()
-                          giscus_match = re.search(r'giscus:\s*(\S+)', pf_content)
-                          if giscus_match:
-                              slug = giscus_match.group(1)
-                              rating = ratings.get(slug, {})
-                              display = rating.get('display', '')
-                              if display:
-                                  star_display = f'<br>{display}'
+              page_file = Path(page_path)
+              if page_file.exists():
+                  with open(page_file, 'r') as pf:
+                      pf_content = pf.read()
+                      giscus_match = re.search(r'giscus:\s*(\S+)', pf_content)
+                      if giscus_match:
+                          slug = giscus_match.group(1)
+                          rating = ratings.get(slug, {})
+                          display = rating.get('display', '')
+                          if display:
+                              star_display = f'<br>{display}'
 
               # Make image clickable
               linked_img = f'<a href="{page_path}">{img_tag}</a>'
