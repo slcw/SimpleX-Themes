@@ -3,3 +3,10 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list
 title: SimpleX-Themes
 description: SimpleX Chat Theme Archive
+
+# Giscus configuration
+# Get these values from https://giscus.app after enabling Giscus on your repo
+giscus:
+  repo_id: "R_kgDOMoOy9A"  # Replace with your giscus repo_id
+  category: "General"      # Or create a "Themes" category
+  category_id: "DIC_kwDOMoOy9M4CvYxA"  # Replace with your giscus category_id

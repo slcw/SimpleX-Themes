@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nightshade",
+    "name": "Nightshade",
+    "discussion": 5
+  },
+  {
+    "id": "nightshade-v2",
+    "name": "Nightshade v2",
+    "discussion": 6
+  },
+  {
+    "id": "nightshade-v2_1",
+    "name": "Nightshade v2.1",
+    "discussion": 7
+  },
+  {
+    "id": "nightshade-v2_2",
+    "name": "Nightshade v2.2",
+    "discussion": 8
+  },
+  {
+    "id": "nightshade-v2_3",
+    "name": "Nightshade v2.3",
+    "discussion": 9
+  },
+  {
+    "id": "amoled-black",
+    "name": "AMOLED Black",
+    "discussion": 10
+  },
+  {
+    "id": "amoled-black-v2",
+    "name": "AMOLED Black v2",
+    "discussion": 11
+  },
+  {
+    "id": "catppuccin-mocha-v2",
+    "name": "Catppuccin Mocha v2",
+    "discussion": 12
+  },
+  {
+    "id": "catppuccin-latte",
+    "name": "Catppuccin Latte",
+    "discussion": 13
+  },
+  {
+    "id": "catppuccin-frappe",
+    "name": "Catppuccin Frappe",
+    "discussion": 14
+  },
+  {
+    "id": "catppuccin-macchiato",
+    "name": "Catppuccin Macchiato",
+    "discussion": 15
+  },
+  {
+    "id": "green-v2",
+    "name": "Green v2",
+    "discussion": 16
+  },
+  {
+    "id": "green-plus-v1",
+    "name": "Green Plus v1",
+    "discussion": 17
+  },
+  {
+    "id": "green-plus-v1_5",
+    "name": "Green Plus v1.5",
+    "discussion": 18
+  },
+  {
+    "id": "green-night-v1",
+    "name": "Green Night v1",
+    "discussion": 19
+  },
+  {
+    "id": "dusk",
+    "name": "Dusk",
+    "discussion": 20
+  },
+  {
+    "id": "dusk-v2",
+    "name": "Dusk v2",
+    "discussion": 21
+  },
+  {
+    "id": "dark",
+    "name": "Dark",
+    "discussion": 22
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "discussion": 23
+  },
+  {
+    "id": "dracula",
+    "name": "Dracula",
+    "discussion": 24
+  },
+  {
+    "id": "solarized-darkish",
+    "name": "Solarized Darkish",
+    "discussion": 25
+  },
+  {
+    "id": "joker",
+    "name": "Joker",
+    "discussion": 26
+  },
+  {
+    "id": "mona-lisa",
+    "name": "Mona Lisa",
+    "discussion": 27
+  },
+  {
+    "id": "aurora-sunset",
+    "name": "Aurora Sunset",
+    "discussion": 28
+  }
+]
