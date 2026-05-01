@@ -1,4 +1,9 @@
-![SxC Theme Archive Banner](./resources/SxC_themeBanner.png)
+---
+layout: default
+title: SimpleX Theme Archive
+---
+
+![SxC Theme Archive Banner](resources/SxC_themeBanner.png)
 
 [website](https://themes.osowoso.org)
 
@@ -56,7 +61,7 @@ Click a theme name to view screenshots and download:
 | ![Smurf](screenshots/smurf01.jpg) <br> [Smurf](resources/SxC_smurf_index.md) | ![Soft Twilight 1.0](screenshots/Soft_Twilight_1.001.jpg) <br> [Soft_Twilight_1.0](resources/SxC_Soft_Twilight_1.0_index.md) | ![Solarized Darkish](screenshots/solarizedDarkish01.jpg) <br> [Solarized Darkish](resources/SxC_solarizedDarkish_index.md) |
 | ![The Shining v2](screenshots/The_Shining-v201.jpg) <br> [The Shining v2](resources/SxC_The_Shining-v2_index.md) | ![Totoro-ify](screenshots/Totoro-ify01.jpg) <br> [Totoro-ify](resources/SxC_Totoro-ify_index.md) | ![W_I_D_E](screenshots/W_I_D_E01.jpg) <br> [W_I_D_E](resources/SxC_W_I_D_E_index.md) |
 | ![WhatsApp Dark](screenshots/whatsappDark01.jpg) <br> [WhatsApp Dark](resources/SxC_whatsappDark_index.md) | ![WhatsApp Green v2](screenshots/whatsappGreen-v201.jpg) <br> [WhatsApp Green v2](resources/SxC_whatsappGreen-v2_index.md) | ![WhatsApp Light v3](screenshots/whatsappLight-v301.jpg) <br> [WhatsApp Light v3](resources/SxC_whatsappLight-v3_index.md) |
-| ![Xochitl](screenshots/xochitl01.jpg) <br> [Xochitl](resources/SxC_xochitl_index.md) | ![Yellow](screenshots/yellow01.jpg) <br> [Yellow](resources/SxC_yellow_index.md) |  |
+| ![Xochitl](screenshots/xochitl01.jpg) <br> [Xochitl](resources/SxC_xochitl_index.md) | ![Yellow](screenshots/yellow01.jpg) <br> [Yellow](resources/SxC_yellow_index.md) | |
 
 source code:  
 [SourceHut](https://git.sr.ht/~osowoso/SimpleX-Themes/send-email)  
