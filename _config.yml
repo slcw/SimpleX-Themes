@@ -1,12 +1,16 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list
+- jekyll-remote-theme
 title: SimpleX-Themes
 description: SimpleX Chat Theme Archive
 
+# Ensure Jekyll serves all files
+include:
+  - screenshots
+  - resources
+
 # Giscus configuration
-# Get these values from https://giscus.app after enabling Giscus on your repo
 giscus:
-  repo_id: "R_kgDOMoOy9A"  # Replace with your giscus repo_id
-  category: "General"      # Or create a "Themes" category
-  category_id: "DIC_kwDOMoOy9M4CvYxA"  # Replace with your giscus category_id
+  repo_id: "R_kgDOMoOy9A"
+  category: "General"
+  category_id: "DIC_kwDOMoOy9M4CvYxA"

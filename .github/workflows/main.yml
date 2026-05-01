@@ -1,0 +1,148 @@
+name: Main CI/CD
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    paths:
+      - 'themes/*.theme'
+  schedule:
+    - cron: "0 * * * *"  # Popularity update every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  discussions: read
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  count-themes:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v5
+      
+      - name: Count unique themes
+        run: |
+          # Count unique theme families (remove -v* version suffix only)
+          UNIQUE=$(find ./themes/ -type f -name '*.theme' | \
+            sed 's|.*/SxC_||; s|\.theme||; s|-v[0-9].*||' | \
+            sort -u | wc -l)
+          
+          echo "Unique themes: $UNIQUE"
+          
+          if grep -q "Themes count:" README.md; then
+            sed -i "s/# Themes count: .*/# Themes count: $UNIQUE/" README.md
+          fi
+      
+      - name: Commit updated count
+        run: |
+          git config --global user.name "oSoWoSo-bot"
+          git config --global user.email "osowoso@disroot.org"
+          if git diff --exit-code HEAD -- README.md 2>/dev/null; then
+            echo "No changes to commit."
+          else
+            git add README.md
+            git commit -m "Update theme count"
+            git push
+          fi
+
+  validate-theme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Validate theme files
+        run: |
+          for theme_file in themes/*.theme; do
+            echo "Validating $theme_file..."
+            if ! grep -q 'base:' "$theme_file"; then
+              echo "Error: $theme_file missing 'base:' field"
+              exit 1
+            fi
+            required_colors=("accent" "background" "menus")
+            for color in "${required_colors[@]}"; do
+              if ! grep -q "$color:" "$theme_file"; then
+                echo "Warning: $theme_file missing '$color:' field"
+              fi
+            done
+            echo "$theme_file is valid"
+          done
+          echo "All theme files validated successfully!"
+      
+      - name: Check screenshots exist
+        run: |
+          themes=$(find themes -name '*.theme' -exec basename {} .theme \;)
+          for theme in $themes; do
+            if ! ls screenshots/SxC_${theme}*.jpg 1>/dev/null 2>&1; then
+              echo "Warning: No screenshots found for $theme"
+            fi
+          done
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [count-themes, validate-theme]
+    if: always() && (needs.count-themes.result == 'success' || needs.count-themes.result == 'skipped') && (needs.validate-theme.result == 'success' || needs.validate-theme.result == 'skipped')
+    steps:
+      - uses: actions/checkout@v5
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v4
+        with:
+          source: ./
+          destination: ./_site
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  generate-popularity:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      
+      - name: Install dependencies
+        run: npm install @octokit/graphql
+      
+      - name: Generate popularity
+        run: node scripts/generate-popularity.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit updated stats
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/popular.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update popularity stats"
+          git push
