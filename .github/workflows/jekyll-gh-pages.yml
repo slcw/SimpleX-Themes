@@ -102,24 +102,36 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
 
-          def replace_link(match):
-              theme_name = match.group(1)
-              page_path = match.group(2)
-              page_file = Path(page_path)
-              if page_file.exists():
-                  with open(page_file, 'r') as pf:
-                      content = pf.read()
-                      giscus_match = re.search(r'giscus:\s*(\S+)', content)
-                      if giscus_match:
-                          slug = giscus_match.group(1)
-                          rating = ratings.get(slug, {})
-                          display = rating.get('display', '')
-                          if display:
-                              return f'[{theme_name}]({page_path})<br>{display}'
-              return match.group(0)
+          # Match: <img ...><br>[ThemeName](path)
+          cell_pattern = '(<img src=([^ ]+) width=[^>]+>)<br>(\[([^\\]]+)\\]\\(([^)]+_index\\.md)\\))'
 
-          pattern = r'\[([^\]]+)\]\(([^)]+_index\.md)\)'
-          updated_content = re.sub(pattern, replace_link, content)
+          def replace_cell(match):
+              img_tag = match.group(1)
+              theme_name = match.group(4)
+              page_path = match.group(5)
+
+              # Get star display only if not already present
+              full_match = match.group(0)
+              star_display = ''
+              if '⭐' not in full_match:
+                  page_file = Path(page_path)
+                  if page_file.exists():
+                      with open(page_file, 'r') as pf:
+                          pf_content = pf.read()
+                          giscus_match = re.search(r'giscus:\s*(\S+)', pf_content)
+                          if giscus_match:
+                              slug = giscus_match.group(1)
+                              rating = ratings.get(slug, {})
+                              display = rating.get('display', '')
+                              if display:
+                                  star_display = f'<br>{display}'
+
+              # Make image clickable
+              linked_img = f'<a href="{page_path}">{img_tag}</a>'
+
+              return f'{linked_img}<br>[{theme_name}]({page_path}){star_display}'
+
+          updated_content = re.sub(cell_pattern, replace_cell, content)
 
           with open('README.md', 'w') as f:
               f.write(updated_content)
@@ -148,8 +160,12 @@ jobs:
               with open(md_file, 'w') as f:
                   f.write('\n'.join(new_lines))
 
-          with open('assets/css/style.scss', 'a') as f:
-              f.write('\n\n.theme-popularity {\n  margin: 10px 0;\n  font-size: 1.1em;\n}\n')
+          css_addition = '\n\n.theme-popularity {\n  margin: 10px 0;\n  font-size: 1.1em;\n}\n'
+          with open('assets/css/style.scss', 'r') as f:
+              css_content = f.read()
+          if '.theme-popularity' not in css_content:
+              with open('assets/css/style.scss', 'a') as f:
+                  f.write(css_addition)
 
           print('Ratings updated successfully')
           EOF
