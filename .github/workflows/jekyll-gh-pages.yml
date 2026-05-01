@@ -105,8 +105,8 @@ jobs:
           # First, remove ALL existing stars to prevent duplicates
           content = re.sub(r'<br>⭐ \d+', '', content)
 
-          # Match: <img ...><br>[ThemeName](path)
-          cell_pattern = r'(<img src=[^ ]+ width=[^>]+>)<br>(\[([^\]]+)\]\(([^)]+_index\.md)\))'
+          # Match: <a href=...><img ...></a><br>[ThemeName](path) OR <img ...><br>[ThemeName](path)
+          cell_pattern = r'(?:<a href=[^>]+>)?(<img src=[^ ]+ width=[^>]+>)(?:</a>)?<br>(\[([^\]]+)\]\(([^)]+_index\.md)\))'
 
           def replace_cell(match):
               img_tag = match.group(1)
