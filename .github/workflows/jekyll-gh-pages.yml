@@ -2,27 +2,25 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+  schedule:
+    - cron: '0 */6 * * *'
+
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  count:
+  count-and-ratings:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,28 +32,149 @@ jobs:
             sed -i "/# Themes count:/c\# Themes count: $(find ./themes/ -type f -name '*.theme' | wc -l)" README.md
           fi
 
-      - name: "Push"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch reactions and update ratings
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name web-flow
-          git config --global user.email "noreply@github.com"
+          pip install pyyaml requests
+          python3 << 'EOF'
+          import os, requests, yaml, re
+          from pathlib import Path
+
+          headers = {
+              'Accept': 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2026-03-10'
+          }
+          token = os.environ.get('TOKEN')
+          if token:
+              headers['Authorization'] = f'Bearer {token}'
+
+          discussions = []
+          page = 1
+          while True:
+              r = requests.get(
+                  'https://api.github.com/repos/oSoWoSo/SimpleX-Themes/discussions',
+                  headers=headers,
+                  params={'per_page': 100, 'page': page}
+              )
+              if r.status_code != 200:
+                  break
+              batch = r.json()
+              if not batch:
+                  break
+              discussions.extend(batch)
+              if len(batch) < 100:
+                  break
+              page += 1
+
+          ratings = {}
+          for d in discussions:
+              if d.get('category', {}).get('slug') == 'announcements':
+                  continue
+              reactions = d.get('reactions', {})
+              score = sum([
+                  reactions.get('+1', 0),
+                  reactions.get('heart', 0),
+                  reactions.get('rocket', 0),
+                  reactions.get('laugh', 0),
+                  reactions.get('hooray', 0)
+              ])
+
+              title = d.get('title', '').lower()
+              if title.startswith('[theme] '):
+                  title = title[8:].strip()
+              slug = title.replace(' ', '-')
+              ratings[slug] = {
+                  'score': score,
+                  'display': f'⭐ {score}' if score > 0 else ''
+              }
+
+          output_file = Path('_data/ratings.yml')
+          output_file.parent.mkdir(exist_ok=True)
+          with open(output_file, 'w') as f:
+              yaml.dump(ratings, f, allow_unicode=True, default_flow_style=False)
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          def replace_link(match):
+              theme_name = match.group(1)
+              page_path = match.group(2)
+              page_file = Path(page_path)
+              if page_file.exists():
+                  with open(page_file, 'r') as pf:
+                      content = pf.read()
+                      giscus_match = re.search(r'giscus:\s*(\S+)', content)
+                      if giscus_match:
+                          slug = giscus_match.group(1)
+                          rating = ratings.get(slug, {})
+                          display = rating.get('display', '')
+                          if display:
+                              return f'[{theme_name}]({page_path})<br>{display}'
+              return match.group(0)
+
+          pattern = r'\[([^\]]+)\]\(([^)]+_index\.md)\)'
+          updated_content = re.sub(pattern, replace_link, content)
+
+          with open('README.md', 'w') as f:
+              f.write(updated_content)
+
+          for md_file in Path('resources').glob('*_index.md'):
+              with open(md_file, 'r') as f:
+                  content = f.read()
+              giscus_match = re.search(r'giscus:\s*(\S+)', content)
+              if not giscus_match:
+                  continue
+              slug = giscus_match.group(1)
+              rating = ratings.get(slug, {})
+              display = rating.get('display', '')
+              if not display:
+                  continue
+              if 'class="theme-popularity"' in content:
+                  continue
+              lines = content.split('\n')
+              new_lines = []
+              title_found = False
+              for i, line in enumerate(lines):
+                  new_lines.append(line)
+                  if not title_found and line.startswith('# ') and i > 0:
+                      title_found = True
+                      new_lines.append(f'\n<p class="theme-popularity">Popularity: {display}</p>\n')
+              with open(md_file, 'w') as f:
+                  f.write('\n'.join(new_lines))
+
+          with open('assets/css/style.scss', 'a') as f:
+              f.write('\n\n.theme-popularity {\n  margin: 10px 0;\n  font-size: 1.1em;\n}\n')
+
+          print('Ratings updated successfully')
+          EOF
+
+      - name: Push changes
+        run: |
+          git config --global user.name "oSoWoSo-bot"
+          git config --global user.email "osowoso@disroot.org"
           if git diff --exit-code HEAD; then
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
             exit 0
           else
-            git add README.md
-            git commit -m "count"
+            git add README.md _data/ratings.yml resources/*.md assets/css/style.scss
+            git commit -m "count & ratings"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || exit 0
           fi
 
-  # Build job
   build:
     runs-on: ubuntu-latest
-    needs: count
+    needs: count-and-ratings
     steps:
       - name: Checkout
         uses: actions/checkout@v5
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -64,7 +183,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -74,4 +192,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
