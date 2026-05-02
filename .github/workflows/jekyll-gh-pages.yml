@@ -99,23 +99,26 @@ jobs:
           with open(output_file, 'w') as f:
               yaml.dump(ratings, f, allow_unicode=True, default_flow_style=False)
 
+          # --- Update README.md stars ---
+
           with open('README.md', 'r') as f:
               content = f.read()
 
-          # First, remove ALL existing stars to prevent duplicates
+          # Strip all existing stars
           content = re.sub(r'<br>⭐ \d+', '', content)
 
-          # Match: <a href=...><img ...></a><br>[ThemeName](path) OR <img ...><br>[ThemeName](path)
-          cell_pattern = r'(?:<a href=[^>]+>)?(<img src=[^ ]+ width=[^>]+>)(?:</a>)?<br>(\[([^\]]+)\]\(([^)]+_index\.md)\))'
+          # Match cells whose link ends in _index.md OR _index.html (handles both states)
+          cell_pattern = r'(?:<a href=[^>]+>)?(<img src=[^ ]+ width=[^>]+>)(?:</a>)?<br>(\[([^\]]+)\]\(([^)]+_index\.(?:md|html))\))'
 
           def replace_cell(match):
               img_tag = match.group(1)
               theme_name = match.group(3)
               page_path = match.group(4)
 
-              # Get star display from ratings
+              # Always read from the .md source file regardless of link extension
+              md_path = page_path.replace('./', '').replace('.html', '.md')
               star_display = ''
-              page_file = Path(page_path)
+              page_file = Path(md_path)
               if page_file.exists():
                   with open(page_file, 'r') as pf:
                       pf_content = pf.read()
@@ -127,10 +130,9 @@ jobs:
                           if display:
                               star_display = f'<br>{display}'
 
-              # Make image clickable - remove ./ prefix and change .md to .html
+              # Canonical path: no ./ prefix, always .html
               clean_path = page_path.replace('./', '').replace('.md', '.html')
               linked_img = f'<a href="{clean_path}">{img_tag}</a>'
-
               return f'{linked_img}<br>[{theme_name}]({clean_path}){star_display}'
 
           updated_content = re.sub(cell_pattern, replace_cell, content)
@@ -138,7 +140,10 @@ jobs:
           with open('README.md', 'w') as f:
               f.write(updated_content)
 
-          for md_file in Path('resources').glob('*_index.md'):
+          # --- Update popularity tags in every theme index page ---
+          # Always remove and re-add so the displayed score stays current.
+
+          for md_file in sorted(Path('resources').glob('*_index.md')):
               with open(md_file, 'r') as f:
                   content = f.read()
               giscus_match = re.search(r'giscus:\s*(\S+)', content)
@@ -147,21 +152,103 @@ jobs:
               slug = giscus_match.group(1)
               rating = ratings.get(slug, {})
               display = rating.get('display', '')
-              if not display:
-                  continue
-              if 'class="theme-popularity"' in content:
-                  continue
-              lines = content.split('\n')
-              new_lines = []
-              title_found = False
-              for i, line in enumerate(lines):
-                  new_lines.append(line)
-                  if not title_found and line.startswith('# ') and i > 0:
-                      title_found = True
-                      new_lines.append(f'\n<p class="theme-popularity">Popularity: {display}</p>\n')
-              with open(md_file, 'w') as f:
-                  f.write('\n'.join(new_lines))
 
+              # Remove any existing popularity tag
+              content = re.sub(r'\n?<p class="theme-popularity">[^\n]*</p>\n?', '\n', content)
+
+              if display:
+                  lines = content.split('\n')
+                  new_lines = []
+                  title_found = False
+                  for i, line in enumerate(lines):
+                      new_lines.append(line)
+                      if not title_found and line.startswith('# ') and i > 0:
+                          title_found = True
+                          new_lines.append(f'\n<p class="theme-popularity">Popularity: {display}</p>')
+                  content = '\n'.join(new_lines)
+
+              with open(md_file, 'w') as f:
+                  f.write(content)
+
+          # --- Link older versions on the latest-version page ---
+          # Group index pages by giscus slug (= theme family).
+          # Pages listed in README are "current"; all others in the same family are "older".
+
+          family_map = {}
+          for md_file in sorted(Path('resources').glob('*_index.md')):
+              with open(md_file, 'r') as f:
+                  fc = f.read()
+              gm = re.search(r'giscus:\s*(\S+)', fc)
+              hm = re.search(r'^# (.+)$', fc, re.MULTILINE)
+              if gm and hm:
+                  family_map.setdefault(gm.group(1), []).append(
+                      (md_file, hm.group(1).strip())
+                  )
+
+          with open('README.md', 'r') as f:
+              readme_text = f.read()
+          readme_refs = set(re.findall(r'(SxC_[^)"]+_index\.html)', readme_text))
+
+          for slug, members in family_map.items():
+              if len(members) <= 1:
+                  continue
+
+              current = [(f, n) for f, n in members if f.name.replace('.md', '.html') in readme_refs]
+              older   = [(f, n) for f, n in members if f.name.replace('.md', '.html') not in readme_refs]
+
+              if not current or not older:
+                  continue
+
+              cur_file, cur_name = current[0]
+
+              # Update latest-version page: rebuild "Older Versions" section
+              with open(cur_file, 'r') as f:
+                  content = f.read()
+              content = re.sub(
+                  r'\n+----\n### Older Versions\n.*?(?=\n\* \[Return Home\])',
+                  '', content, flags=re.DOTALL
+              )
+              def ver_key(item):
+                  name = item[0].stem
+                  m = re.search(r'[Vv](\d+)[_.](\d+)', name)
+                  if m:
+                      return (int(m.group(1)), int(m.group(2)))
+                  m = re.search(r'(?:-[Vv]|(?<=[a-zA-Z])[V])(\d+)', name)
+                  if m:
+                      return (int(m.group(1)), 0)
+                  return (0, 0)
+
+              older_section = '\n\n----\n### Older Versions\n\n'
+              for old_file, old_name in sorted(older, key=ver_key, reverse=True):
+                  older_section += f'* [{old_name}]({old_file.name.replace(".md", ".html")})\n'
+              older_section += '\n'
+              content = re.sub(
+                  r'\n\* \[Return Home\]\(\.\./\)',
+                  older_section + '\n* [Return Home](../)',
+                  content
+              )
+              with open(cur_file, 'w') as f:
+                  f.write(content)
+
+              # Update each older-version page: add/refresh "newer version" notice
+              for old_file, old_name in older:
+                  with open(old_file, 'r') as f:
+                      oc = f.read()
+                  oc = re.sub(r'\n?> \*\*Newer version available:[^\n]*\n?', '', oc)
+                  note = f'\n> **Newer version available:** [{cur_name}]({cur_file.name.replace(".md", ".html")})\n'
+                  lines = oc.split('\n')
+                  new_lines = []
+                  title_found = False
+                  for i, line in enumerate(lines):
+                      new_lines.append(line)
+                      if not title_found and line.startswith('# ') and i > 0:
+                          title_found = True
+                          new_lines.append(note)
+                  oc = '\n'.join(new_lines)
+                  with open(old_file, 'w') as f:
+                      f.write(oc)
+
+          # --- Ensure CSS for popularity badge ---
           css_addition = '\n\n.theme-popularity {\n  margin: 10px 0;\n  font-size: 1.1em;\n}\n'
           with open('assets/css/style.scss', 'r') as f:
               css_content = f.read()
