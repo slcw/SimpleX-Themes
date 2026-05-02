@@ -41,7 +41,6 @@ colors:
   receivedReply: "#2086848d"
 ```
 
-
 ----
 ### Older Versions
 

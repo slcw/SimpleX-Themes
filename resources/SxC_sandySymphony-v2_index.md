@@ -41,7 +41,6 @@ colors:
   receivedReply: "#ffd4dadd"
 ```
 
-
 ----
 ### Older Versions
 

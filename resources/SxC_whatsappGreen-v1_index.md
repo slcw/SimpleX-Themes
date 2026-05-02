@@ -9,6 +9,7 @@ giscus: whatsapp-green
 > **Newer version available:** [WhatsApp Green v2](SxC_whatsappGreen-v2_index.html)
 
 
+
 * Download [WhatsApp Green v1](../themes/SxC_whatsappGreen-v1.theme)
 
 <a href="../screenshots/SxC_whatsappGreen-v101.jpg" target="_blank">

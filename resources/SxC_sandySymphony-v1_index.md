@@ -9,6 +9,7 @@ giscus: sandy-symphony
 > **Newer version available:** [Sandy Symphony v2](SxC_sandySymphony-v2_index.html)
 
 
+
 * Download [Sandy Symphony v1](../themes/SxC_sandySymphony-v1.theme)
 
 <a href="../screenshots/SxC_sandySymphony-v101.jpg" target="_blank">

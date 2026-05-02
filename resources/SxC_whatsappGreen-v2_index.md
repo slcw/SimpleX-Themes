@@ -41,7 +41,6 @@ colors:
   receivedReply: "#ffe4e8ee"
 ```
 
-
 ----
 ### Older Versions
 

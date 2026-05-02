@@ -46,7 +46,6 @@ wallpaper:
   tint: "#00ffffff"
 ```
 
-
 ----
 ### Older Versions
 

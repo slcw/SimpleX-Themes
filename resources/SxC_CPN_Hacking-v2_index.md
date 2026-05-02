@@ -41,7 +41,6 @@ colors:
   receivedReply: "#ff141514"
 ```
 
-
 ----
 ### Older Versions
 

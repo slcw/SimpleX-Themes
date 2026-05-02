@@ -9,6 +9,7 @@ giscus: catppuccin-mocha
 > **Newer version available:** [Catppuccin Mocha v2](SxC_catppuccinMocha-v2_index.html)
 
 
+
 * Download [Catppuccin Mocha v1](../themes/SxC_catppuccinMocha-v1.theme)
 
 <a href="../screenshots/SxC_catppuccinMocha-v101.jpg" target="_blank">
