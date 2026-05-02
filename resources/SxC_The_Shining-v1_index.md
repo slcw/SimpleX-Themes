@@ -6,6 +6,9 @@ giscus: the-shining
 
 # The Shining v1
 
+> **Newer version available:** [The Shining v2](SxC_The_Shining-v2_index.html)
+
+
 * Download [The Shining v1](../themes/SxC_The_Shining-v1.theme)
 
 <a href="../screenshots/SxC_The_Shining-v101.jpg" target="_blank">

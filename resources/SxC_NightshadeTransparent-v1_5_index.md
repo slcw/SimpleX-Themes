@@ -6,6 +6,9 @@ giscus: nightshade
 
 # Nightshade Transparent v1.5
 
+> **Newer version available:** [Nightshade v2.3](SxC_Nightshade-v2_3_index.html)
+
+
 * Download [Nightshade Transparent v1.5](../themes/SxC_NightshadeTransparent-v1_5.theme)
 
 <a href="../screenshots/SxC_NightshadeTransparent-v1_501.jpg" target="_blank">

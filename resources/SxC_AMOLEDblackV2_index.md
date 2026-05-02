@@ -46,4 +46,11 @@ wallpaper:
   tint: "#00ffffff"
 ```
 
+
+----
+### Older Versions
+
+* [AMOLED Black v1](SxC_AMOLEDblack-v1_index.html)
+
+
 * [Return Home](../)

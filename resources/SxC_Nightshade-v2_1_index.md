@@ -6,6 +6,9 @@ giscus: nightshade
 
 # Nightshade v2.1
 
+> **Newer version available:** [Nightshade v2.3](SxC_Nightshade-v2_3_index.html)
+
+
 * Download [Nightshade v2.1](../themes/SxC_Nightshade-v2_1.theme)
 
 <a href="../screenshots/SxC_Nightshade-v2_101.jpg" target="_blank">

@@ -46,4 +46,11 @@ wallpaper:
   tint: "#2c000000"
 ```
 
+
+----
+### Older Versions
+
+* [The Shining v1](SxC_The_Shining-v1_index.html)
+
+
 * [Return Home](../)

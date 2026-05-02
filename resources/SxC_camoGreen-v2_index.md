@@ -46,4 +46,12 @@ wallpaper:
   tint: "#67032710"
 ```
 
+
+----
+### Older Versions
+
+* [Camo Green v1.5](SxC_camoGreen-v1_5_index.html)
+* [Camo Green v1](SxC_camoGreen-v1_index.html)
+
+
 * [Return Home](../)

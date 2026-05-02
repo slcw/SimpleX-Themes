@@ -6,6 +6,9 @@ giscus: green-plus
 
 # Green Plus v1
 
+> **Newer version available:** [Green Plus v1.5](SxC_greenPlus-v1_5_index.html)
+
+
 * Download [Green Plus v1](../themes/SxC_greenPlus-v1.theme)
 
 <a href="../screenshots/SxC_greenPlus-v101.jpg" target="_blank">

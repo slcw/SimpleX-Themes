@@ -6,6 +6,9 @@ giscus: amoled-black
 
 # AMOLED Black v1
 
+> **Newer version available:** [AMOLED Black v2](SxC_AMOLEDblackV2_index.html)
+
+
 * Download [AMOLED Black v1](../themes/SxC_AMOLEDblack-v1.theme)
 
 <a href="../screenshots/SxC_AMOLEDblack-v101.jpg" target="_blank">

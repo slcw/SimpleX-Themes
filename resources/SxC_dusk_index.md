@@ -6,6 +6,9 @@ giscus: dusk
 
 # Dusk
 
+> **Newer version available:** [Dusk v2](SxC_dusk-v2_index.html)
+
+
 * Download [Dusk](../themes/SxC_dusk.theme)
 
 <a href="../screenshots/SxC_dusk01.jpg" target="_blank">

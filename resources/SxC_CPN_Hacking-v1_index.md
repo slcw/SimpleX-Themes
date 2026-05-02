@@ -6,6 +6,9 @@ giscus: cpn-hacking
 
 # CPN Hacking v1
 
+> **Newer version available:** [CPN Hacking v2](SxC_CPN_Hacking-v2_index.html)
+
+
 * Download [CPN Hacking v1](../themes/SxC_CPN_Hacking-v1.theme)
 
 <a href="../screenshots/SxC_CPN_Hacking-v101.jpg" target="_blank">
